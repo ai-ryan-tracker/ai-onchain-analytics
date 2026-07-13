@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 512 512">
+
+    <defs>
+        <linearGradient id="blueGradient"
+                        x1="0%" y1="0%"
+                        x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#2FD7FF"/>
+            <stop offset="100%" stop-color="#0046D5"/>
+        </linearGradient>
+    </defs>
+
+    <!-- Upper curve -->
+    <path
+        d="M120 180
+           C180 80 340 60 420 120
+           C330 110 240 140 170 230
+           C145 260 135 290 160 320
+           C90 290 80 240 120 180Z"
+        fill="url(#blueGradient)"/>
+
+    <!-- Lower curve -->
+    <path
+        d="M390 320
+           C330 430 170 450 80 390
+           C170 400 270 370 340 280
+           C365 250 375 220 350 190
+           C420 220 430 270 390 320Z"
+        fill="url(#blueGradient)"/>
+
+    <!-- Star -->
+    <path
+        d="M425 65
+           L435 95
+           L465 105
+           L435 115
+           L425 145
+           L415 115
+           L385 105
+           L415 95Z"
+        fill="#39D5FF"/>
+
+</svg>
