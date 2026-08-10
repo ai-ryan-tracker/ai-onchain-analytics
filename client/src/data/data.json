@@ -1,0 +1,1432 @@
+{
+  "Access": {
+    "haveaccess": "",
+    "accountInfo": {
+      "userAvatar": "",
+      "userName": "",
+      "userEmail": "",
+      "userLinks": {
+        "FaceBookLink": "",
+        "disCordLink": "",
+        "youtubeLink": "",
+        "xLink": "",
+        "instgramLink": ""
+      },
+      "userBio": "",
+      "userPassword": ""
+    },
+    "systemRequerd": {
+      "userPanar": "/images/Panners/Rayna Bator.jpg",
+      "userID": "fd458adW25dJ9",
+      "Verified": 0,
+      "userAcountDetalise": {
+        "Volume": 0,
+        "NFTsSold": 0,
+        "Followers": 0
+      },
+      "NFTs": [],
+      "collection": []
+    }
+  },
+  "Home": {
+    "Hero": {
+      "badge": "Next-gen crypto gaming platform",
+      "description": "Stake, play, and grow your network across roulette, slots, sports, and affiliate rewards — all in one unified galaxy ecosystem.",
+      "quickStats": [
+        { "value": "606", "label": "Total Users" },
+        { "value": "10M", "label": "Betting Volume" },
+        { "value": "100k", "label": "Staking Volume" }
+      ]
+    },
+    "stats": [
+      { "icon": "users", "value": "606", "label": "Total Users" },
+      { "icon": "chart", "value": "10M BET", "label": "Betting Volume" },
+      { "icon": "coins", "value": "100k BET", "label": "Staking Volume" },
+      { "icon": "network", "value": "5M / 15M", "label": "L/R Volume Ratio" }
+    ],
+    "earnings": {
+      "rows": [
+        { "label": "Total Interest", "value": "$ 1,250.00" },
+        { "label": "Direct Reward", "value": "$ 890.00" },
+        { "label": "Total Bonus", "value": "$ 2,295.00" }
+      ],
+      "claimable": "$ 5,435.00",
+      "payoutLegend": [
+        { "color": "var(--sg-green)", "label": "Active" },
+        { "color": "var(--sg-gold)", "label": "Payout" },
+        { "color": "var(--sg-purple-soft)", "label": "Mining" },
+        { "color": "var(--sg-pink)", "label": "New" }
+      ]
+    },
+    "volume": {
+      "cycle": "Cycle — 360 days",
+      "cycleProgress": 62,
+      "left": "$ 133.65k",
+      "right": "$ 1.2M"
+    },
+    "features": [
+      {
+        "step": "01",
+        "title": "Connect Your Wallet",
+        "desc": "Link your wallet to access staking, games, and affiliate rewards across the SoftGalaxy ecosystem."
+      },
+      {
+        "step": "02",
+        "title": "Stake & Play",
+        "desc": "Stake BET tokens for passive income or dive into roulette, slots, and sports betting."
+      },
+      {
+        "step": "03",
+        "title": "Grow Your Network",
+        "desc": "Build your binary or linear genealogy tree and earn commissions from your affiliate structure."
+      }
+    ],
+    "BC": [
+      {
+        "CategorieName": "Art",
+        "CategorieImg": "/images/categorie/art.png"
+      },
+      {
+        "CategorieName": "Collectibles",
+        "CategorieImg": "/images/categorie/collectibles.png"
+      },
+      {
+        "CategorieName": "Music",
+        "CategorieImg": "/images/categorie/music.png"
+      },
+      {
+        "CategorieName": "Photography",
+        "CategorieImg": "/images/categorie/photography.png"
+      },
+      {
+        "CategorieName": "Video",
+        "CategorieImg": "/images/categorie/video.png"
+      },
+      {
+        "CategorieName": "Utility",
+        "CategorieImg": "/images/categorie/utility.png"
+      },
+      {
+        "CategorieName": "Sport",
+        "CategorieImg": "/images/categorie/sport.png"
+      },
+      {
+        "CategorieName": "Virtual Worlds",
+        "CategorieImg": "/images/categorie/virtualWorlds.png"
+      }
+    ],
+    "MM": {
+      "auctionImg": "/images/auction/Magic-Mashrooms.png",
+      "auctionname": "Magic Mashrooms",
+      "auctionTimer": "2024-10-01T12:43:00",
+      "userInfo": {
+        "name": "Phillip Lipshutz",
+        "img": "/images/creators/Phillip Lipshutz.png"
+      }
+    },
+    "HIW": [
+      {
+        "img": "/images/howItWork/setup.png",
+        "title": "Setup Your wallet",
+        "paregraf": "Set up your wallet of choice. Connect it to by clicking the wallet icon in the top right."
+      },
+      {
+        "img": "/images/howItWork/create.png",
+        "title": "Create Collection",
+        "paregraf": "Upload your work and setup your collection Add a description, social links and floor price."
+      },
+      {
+        "img": "/images/howItWork/start.png",
+        "title": "Start Earning",
+        "paregraf": "Choose between auctions and fixed-price listings. Start earning by selling your NFTs or trading."
+      }
+    ],
+    "NMAT": {
+      "img": "/images/NMAT/Photo.png"
+    }
+  },
+  "NFTsMarket": {
+    "FilterItems": [],
+    "FilterSliderItem": [
+      {
+        "filterTitlel": "Sort by:",
+        "filterItems": [
+          { "filterItemName": "Most relevant", "filterItemState": "" },
+          { "filterItemName": "Recent", "filterItemState": "" }
+        ]
+      },
+      {
+        "filterTitlel": "License:",
+        "filterItems": [
+          { "filterItemName": "Free", "filterItemState": "" },
+          { "filterItemName": "Premium", "filterItemState": "" }
+        ]
+      },
+      {
+        "filterTitlel": "NFTs type:",
+        "filterItems": [
+          { "filterItemName": "DSGN Animals", "filterItemState": "" },
+          { "filterItemName": "Magic Mushrooms", "filterItemState": "" },
+          { "filterItemName": "Disco Machines", "filterItemState": "" },
+          { "filterItemName": "Space", "filterItemState": "" }
+        ]
+      }
+    ],
+    "NFTs": [
+      {
+        "id": 1,
+        "postTitle": "Distant Galaxy",
+        "postImg": "/images/NTFs/Distant Galaxy.png",
+        "postPrice": 1.63,
+        "postHightesBid": 0.33,
+        "postdescreption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem obcaecati libero sed dolores illum minima enim, quisquam laborum recusandae ut ducimus sequi deserunt ex magnam accusantium aliquid, repudiandae ea nam?",
+        "filter": ["Recent", "Premium", "Space"],
+        "verified": true,
+        "userInfo": {
+          "name": "Rayna Bator",
+          "img": "/images/creators/Rayna Bator.png"
+        }
+      },
+      {
+        "id": 2,
+        "postTitle": "Life On Edena",
+        "postImg": "/images/NTFs/Life On Edena.png",
+        "postPrice": 2.63,
+        "postHightesBid": 0.83,
+        "postdescreption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem obcaecati libero sed dolores illum minima enim, quisquam laborum recusandae ut ducimus sequi deserunt ex magnam accusantium aliquid, repudiandae ea nam?",
+        "filter": ["Recent", "Premium"],
+        "userInfo": {
+          "name": "Angel Lubin",
+          "img": "/images/creators/Angel Lubin.png"
+        }
+      },
+      {
+        "id": 3,
+        "postTitle": "Astro Fiction",
+        "postImg": "/images/NTFs/Astro Fiction.png",
+        "postPrice": 2.93,
+        "postHightesBid": 0.2,
+        "postdescreption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem obcaecati libero sed dolores illum minima enim, quisquam laborum recusandae ut ducimus sequi deserunt ex magnam accusantium aliquid, repudiandae ea nam?",
+        "filter": ["Recent", "Premium", "Space"],
+        "verified": true,
+        "userInfo": {
+          "name": "Allison Torff",
+          "img": "/images/creators/Allison Torff.png"
+        }
+      },
+      {
+        "id": 4,
+        "postTitle": "Magic Mushroom 0325",
+        "postImg": "/images/NTFs/Magic Mushroom 0325.png",
+        "postPrice": 1.63,
+        "postHightesBid": 0.33,
+        "postdescreption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem obcaecati libero sed dolores illum minima enim, quisquam laborum recusandae ut ducimus sequi deserunt ex magnam accusantium aliquid, repudiandae ea nam?",
+        "filter": ["Recent", "Premium", "Magic Mushrooms"],
+        "userInfo": {
+          "name": "Phillip Lipshutz",
+          "img": "/images/creators/Phillip Lipshutz.png"
+        }
+      },
+      {
+        "id": 5,
+        "postTitle": "Happy Robot 032",
+        "postImg": "/images/NTFs/Happy Robot 032.png",
+        "postPrice": 1.83,
+        "postHightesBid": 0.83,
+        "postdescreption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem obcaecati libero sed dolores illum minima enim, quisquam laborum recusandae ut ducimus sequi deserunt ex magnam accusantium aliquid, repudiandae ea nam?",
+        "filter": ["Most relevant", "Premium", "Disco Machines"],
+        "verified": true,
+        "userInfo": {
+          "name": "Alfredo Septimus",
+          "img": "/images/creators/Alfredo Septimus.png"
+        }
+      },
+      {
+        "id": 6,
+        "postTitle": "Happy Robot 024",
+        "postImg": "/images/NTFs/Happy Robot 024.png",
+        "postPrice": 0.0,
+        "postHightesBid": 0,
+        "postdescreption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem obcaecati libero sed dolores illum minima enim, quisquam laborum recusandae ut ducimus sequi deserunt ex magnam accusantium aliquid, repudiandae ea nam?",
+        "filter": ["Most relevant", "Free", "Disco Machines"],
+        "userInfo": {
+          "name": "Davis Workman",
+          "img": "/images/creators/Davis Workman.png"
+        }
+      },
+      {
+        "id": 7,
+        "postTitle": "Designer Bear",
+        "postImg": "/images/NTFs/Designer Bear.png",
+        "postPrice": 5.83,
+        "postHightesBid": 1.8,
+        "postdescreption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem obcaecati libero sed dolores illum minima enim, quisquam laborum recusandae ut ducimus sequi deserunt ex magnam accusantium aliquid, repudiandae ea nam?",
+        "filter": ["Most relevant", "Premium", "DSGN Animals"],
+        "userInfo": {
+          "name": "Kianna Donin",
+          "img": "/images/creators/Kianna Donin.png"
+        }
+      },
+      {
+        "id": 8,
+        "postTitle": "Colorful Dog 0356",
+        "postImg": "/images/NTFs/Colorful Dog 0356.png",
+        "postPrice": 0.0,
+        "postHightesBid": 0,
+        "postdescreption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem obcaecati libero sed dolores illum minima enim, quisquam laborum recusandae ut ducimus sequi deserunt ex magnam accusantium aliquid, repudiandae ea nam?",
+        "filter": ["Most relevant", "Free", "DSGN Animals"],
+        "userInfo": {
+          "name": "Lydia Culhane",
+          "img": "/images/creators/Lydia Culhane.png"
+        }
+      },
+      {
+        "id": 9,
+        "postTitle": "Dancing Robot 0312",
+        "postImg": "/images/NTFs/Dancing Robot 0312.png",
+        "postPrice": 0.0,
+        "postHightesBid": 0,
+        "postdescreption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem obcaecati libero sed dolores illum minima enim, quisquam laborum recusandae ut ducimus sequi deserunt ex magnam accusantium aliquid, repudiandae ea nam?",
+        "filter": ["Free", "Disco Machines"],
+        "userInfo": {
+          "name": "Maria Rosser",
+          "img": "/images/creators/Maria Rosser.png"
+        }
+      },
+      {
+        "id": 10,
+        "postTitle": "Cherry Blossom Girl",
+        "postImg": "/images/NTFs/Cherry Blossom Girl 035.png",
+        "postPrice": 1.03,
+        "postHightesBid": 2.5,
+        "postdescreption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem obcaecati libero sed dolores illum minima enim, quisquam laborum recusandae ut ducimus sequi deserunt ex magnam accusantium aliquid, repudiandae ea nam?",
+        "filter": ["Most relevant", "Premium"],
+        "userInfo": {
+          "name": "Rayna Bator",
+          "img": "/images/creators/Rayna Bator.png"
+        }
+      },
+      {
+        "id": 11,
+        "postTitle": "Space Travel",
+        "postImg": "/images/NTFs/Space Travel.png",
+        "postPrice": 2.23,
+        "postHightesBid": 1.05,
+        "postdescreption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem obcaecati libero sed dolores illum minima enim, quisquam laborum recusandae ut ducimus sequi deserunt ex magnam accusantium aliquid, repudiandae ea nam?",
+        "filter": ["Premium", "Space"],
+        "userInfo": {
+          "name": "Skylar Levin",
+          "img": "/images/creators/Skylar Levin.png"
+        }
+      },
+      {
+        "id": 12,
+        "postTitle": "Sunset Dimension",
+        "postImg": "/images/NTFs/Sunset Dimension.png",
+        "postPrice": 1.03,
+        "postHightesBid": 2.0,
+        "postdescreption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem obcaecati libero sed dolores illum minima enim, quisquam laborum recusandae ut ducimus sequi deserunt ex magnam accusantium aliquid, repudiandae ea nam?",
+        "filter": ["Premium", "Space"],
+        "userInfo": {
+          "name": "Randy Carder",
+          "img": "/images/creators/Randy Carder.png"
+        }
+      },
+      {
+        "id": 13,
+        "postTitle": "Desert Walk",
+        "postImg": "/images/NTFs/Desert Walk.png",
+        "postPrice": 0.53,
+        "postHightesBid": 3.1,
+        "postdescreption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem obcaecati libero sed dolores illum minima enim, quisquam laborum recusandae ut ducimus sequi deserunt ex magnam accusantium aliquid, repudiandae ea nam?",
+        "filter": ["Most relevant", "Premium", "Disco Machines"],
+        "userInfo": {
+          "name": "Lindsey Lipshutz",
+          "img": "/images/creators/Lindsey Lipshutz.png"
+        }
+      },
+      {
+        "id": 14,
+        "postTitle": "IceCream Ape 0324",
+        "postImg": "/images/NTFs/IceCream Ape 0324.png",
+        "postPrice": 3.53,
+        "postHightesBid": 0.5,
+        "postdescreption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem obcaecati libero sed dolores illum minima enim, quisquam laborum recusandae ut ducimus sequi deserunt ex magnam accusantium aliquid, repudiandae ea nam?",
+        "filter": ["Premium", "DSGN Animals"],
+        "userInfo": {
+          "name": "Jocelyn Westervelt",
+          "img": "/images/creators/Jocelyn Westervelt.png"
+        }
+      },
+      {
+        "id": 15,
+        "postTitle": "Colorful Dog 0344",
+        "postImg": "/images/NTFs/Colorful Dog 0344.png",
+        "postPrice": 2.0,
+        "postHightesBid": 3.0,
+        "postdescreption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem obcaecati libero sed dolores illum minima enim, quisquam laborum recusandae ut ducimus sequi deserunt ex magnam accusantium aliquid, repudiandae ea nam?",
+        "filter": ["Premium", "DSGN Animals"],
+        "userInfo": {
+          "name": "Lydia Culhane",
+          "img": "/images/creators/Lydia Culhane.png"
+        }
+      },
+      {
+        "id": 16,
+        "postTitle": "Dancing Robots 0987",
+        "postImg": "/images/NTFs/Dancing Robots 0987.png",
+        "postPrice": 3.83,
+        "postHightesBid": 2.22,
+        "postdescreption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem obcaecati libero sed dolores illum minima enim, quisquam laborum recusandae ut ducimus sequi deserunt ex magnam accusantium aliquid, repudiandae ea nam?",
+        "filter": ["Premium", "Disco Machines"],
+        "userInfo": {
+          "name": "Maria Rosser",
+          "img": "/images/creators/Maria Rosser.png"
+        }
+      },
+      {
+        "id": 17,
+        "postTitle": "IceCream Ape",
+        "postImg": "/images/NTFs/IceCream Ape.png",
+        "postPrice": 1.63,
+        "postHightesBid": 0.85,
+        "postdescreption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem obcaecati libero sed dolores illum minima enim, quisquam laborum recusandae ut ducimus sequi deserunt ex magnam accusantium aliquid, repudiandae ea nam?",
+        "filter": ["Premium", "DSGN Animals"],
+        "userInfo": {
+          "name": "Jocelyn Westervelt",
+          "img": "/images/creators/Jocelyn Westervelt.png"
+        }
+      },
+      {
+        "id": 18,
+        "postTitle": "ColorfulDog 0524",
+        "postImg": "/images/NTFs/ColorfulDog 0524.png",
+        "postPrice": 2.03,
+        "postHightesBid": 1.02,
+        "postdescreption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem obcaecati libero sed dolores illum minima enim, quisquam laborum recusandae ut ducimus sequi deserunt ex magnam accusantium aliquid, repudiandae ea nam?",
+        "filter": ["Premium", "DSGN Animals"],
+        "userInfo": {
+          "name": "Lydia Culhane",
+          "img": "/images/creators/Lydia Culhane.png"
+        }
+      },
+      {
+        "id": 19,
+        "postTitle": "Space Tales",
+        "postImg": "/images/NTFs/Space Tales.png",
+        "postPrice": 1.05,
+        "postHightesBid": 0.72,
+        "postdescreption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem obcaecati libero sed dolores illum minima enim, quisquam laborum recusandae ut ducimus sequi deserunt ex magnam accusantium aliquid, repudiandae ea nam?",
+        "filter": ["Premium", "Space"],
+        "userInfo": {
+          "name": "Marilyn Torff",
+          "img": "/images/creators/Marilyn Torff.png"
+        }
+      },
+      {
+        "id": 20,
+        "postTitle": "Crypto City",
+        "postImg": "/images/NTFs/CryptoCity.png",
+        "postPrice": 2.05,
+        "postHightesBid": 1.54,
+        "postdescreption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem obcaecati libero sed dolores illum minima enim, quisquam laborum recusandae ut ducimus sequi deserunt ex magnam accusantium aliquid, repudiandae ea nam?",
+        "filter": ["Premium", "Space"],
+        "userInfo": {
+          "name": "Jaydon Ekstrom",
+          "img": "/images/creators/Jaydon Ekstrom Bothman.png"
+        }
+      },
+      {
+        "id": 21,
+        "postTitle": "Cherry Blossom Girl 037",
+        "postImg": "/images/NTFs/Cherry Blossom Girl 037.png",
+        "postPrice": 1.25,
+        "postHightesBid": 0.74,
+        "postdescreption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem obcaecati libero sed dolores illum minima enim, quisquam laborum recusandae ut ducimus sequi deserunt ex magnam accusantium aliquid, repudiandae ea nam?",
+        "filter": ["Premium", "Space"],
+        "userInfo": {
+          "name": "Rayna Bator",
+          "img": "/images/creators/Rayna Bator.png"
+        }
+      },
+      {
+        "id": 22,
+        "postTitle": "Nebula Drift #001",
+        "postImg": "/images/NTFs/Distant Galaxy.png",
+        "postPrice": 3.10,
+        "postHightesBid": 1.20,
+        "postdescreption": "A cosmic journey through uncharted nebulae, painted in the raw colors of interstellar dust and stellar winds.",
+        "filter": ["Recent", "Premium", "Space"],
+        "verified": true,
+        "userInfo": { "name": "Skylar Levin", "img": "/images/creators/Skylar Levin.png" }
+      },
+      {
+        "id": 23,
+        "postTitle": "Neon Jungle Bear",
+        "postImg": "/images/NTFs/Designer Bear.png",
+        "postPrice": 4.40,
+        "postHightesBid": 2.10,
+        "postdescreption": "An otherworldly creature born from the neon-soaked jungles of a synthetic future. Unique 1/1.",
+        "filter": ["Most relevant", "Premium", "DSGN Animals"],
+        "verified": true,
+        "userInfo": { "name": "Kianna Donin", "img": "/images/creators/Kianna Donin.png" }
+      },
+      {
+        "id": 24,
+        "postTitle": "Void Mushroom #77",
+        "postImg": "/images/NTFs/Magic Mushroom 0325.png",
+        "postPrice": 0.95,
+        "postHightesBid": 0.40,
+        "postdescreption": "Growing in the void between dimensions, this mystical fungus carries secrets of ancient digital realms.",
+        "filter": ["Recent", "Premium", "Magic Mushrooms"],
+        "userInfo": { "name": "Phillip Lipshutz", "img": "/images/creators/Phillip Lipshutz.png" }
+      },
+      {
+        "id": 25,
+        "postTitle": "Chrome Dancer 0401",
+        "postImg": "/images/NTFs/Dancing Robot 0312.png",
+        "postPrice": 1.75,
+        "postHightesBid": 0.60,
+        "postdescreption": "Fluid motion captured in chrome and circuitry. A dancer built for the dancefloor of eternity.",
+        "filter": ["Most relevant", "Premium", "Disco Machines"],
+        "userInfo": { "name": "Davis Workman", "img": "/images/creators/Davis Workman.png" }
+      },
+      {
+        "id": 26,
+        "postTitle": "Aurora Walk",
+        "postImg": "/images/NTFs/Desert Walk.png",
+        "postPrice": 0.72,
+        "postHightesBid": 1.30,
+        "postdescreption": "Under the electric sky, a lone figure walks the aurora plains. Silence speaks louder than stars.",
+        "filter": ["Most relevant", "Premium", "Space"],
+        "userInfo": { "name": "Lindsey Lipshutz", "img": "/images/creators/Lindsey Lipshutz.png" }
+      },
+      {
+        "id": 27,
+        "postTitle": "Pixel Cosmos #12",
+        "postImg": "/images/NTFs/Space Travel.png",
+        "postPrice": 2.88,
+        "postHightesBid": 1.44,
+        "postdescreption": "Every pixel in this artwork encodes a star cluster. The universe fits in 4096 pixels.",
+        "filter": ["Premium", "Space"],
+        "verified": true,
+        "userInfo": { "name": "Randy Carder", "img": "/images/creators/Randy Carder.png" }
+      },
+      {
+        "id": 28,
+        "postTitle": "Holographic Ape #09",
+        "postImg": "/images/NTFs/IceCream Ape.png",
+        "postPrice": 6.20,
+        "postHightesBid": 3.50,
+        "postdescreption": "A ape phased across three holographic planes. Proof that primates mastered the metaverse first.",
+        "filter": ["Most relevant", "Premium", "DSGN Animals"],
+        "verified": true,
+        "userInfo": { "name": "Jocelyn Westervelt", "img": "/images/creators/Jocelyn Westervelt.png" }
+      },
+      {
+        "id": 29,
+        "postTitle": "Blossom Cipher 041",
+        "postImg": "/images/NTFs/Cherry Blossom Girl 035.png",
+        "postPrice": 1.44,
+        "postHightesBid": 0.88,
+        "postdescreption": "Each petal encodes a hidden message. Decode the blossom, unlock the secret of the digital spring.",
+        "filter": ["Most relevant", "Premium"],
+        "userInfo": { "name": "Rayna Bator", "img": "/images/creators/Rayna Bator.png" }
+      },
+      {
+        "id": 30,
+        "postTitle": "Sunset Protocol",
+        "postImg": "/images/NTFs/Sunset Dimension.png",
+        "postPrice": 2.30,
+        "postHightesBid": 1.10,
+        "postdescreption": "When the simulation reaches its daily limit, this is the last frame rendered before shutdown.",
+        "filter": ["Premium", "Space"],
+        "userInfo": { "name": "Maria Rosser", "img": "/images/creators/Maria Rosser.png" }
+      },
+      {
+        "id": 31,
+        "postTitle": "Galaxy Foxhound",
+        "postImg": "/images/NTFs/Colorful Dog 0356.png",
+        "postPrice": 0.0,
+        "postHightesBid": 0,
+        "postdescreption": "Bred from stardust and neural nets, the galaxy foxhound roams freely across the open source wilds.",
+        "filter": ["Most relevant", "Free", "DSGN Animals"],
+        "userInfo": { "name": "Lydia Culhane", "img": "/images/creators/Lydia Culhane.png" }
+      },
+      {
+        "id": 32,
+        "postTitle": "Disco Engine #55",
+        "postImg": "/images/NTFs/Dancing Robots 0987.png",
+        "postPrice": 4.05,
+        "postHightesBid": 2.80,
+        "postdescreption": "The engine that powers the interplanetary rave. RPM: infinite. Fuel: pure rhythm.",
+        "filter": ["Premium", "Disco Machines"],
+        "verified": true,
+        "userInfo": { "name": "Alfredo Septimus", "img": "/images/creators/Alfredo Septimus.png" }
+      },
+      {
+        "id": 33,
+        "postTitle": "Crypto Archipelago",
+        "postImg": "/images/NTFs/CryptoCity.png",
+        "postPrice": 3.33,
+        "postHightesBid": 1.66,
+        "postdescreption": "A chain of digital islands, each one a block in the ledger of an underwater blockchain civilization.",
+        "filter": ["Recent", "Premium", "Space"],
+        "userInfo": { "name": "Jaydon Ekstrom", "img": "/images/creators/Jaydon Ekstrom Bothman.png" }
+      },
+      {
+        "id": 34,
+        "postTitle": "Fungal Network #03",
+        "postImg": "/images/NTFs/Magic Mushroom 0325.png",
+        "postPrice": 0.60,
+        "postHightesBid": 0.25,
+        "postdescreption": "The mycelium internet predates blockchain by 400 million years. This NFT proves it.",
+        "filter": ["Recent", "Free", "Magic Mushrooms"],
+        "userInfo": { "name": "Phillip Lipshutz", "img": "/images/creators/Phillip Lipshutz.png" }
+      },
+      {
+        "id": 35,
+        "postTitle": "Edge of Edena",
+        "postImg": "/images/NTFs/Life On Edena.png",
+        "postPrice": 5.50,
+        "postHightesBid": 2.40,
+        "postdescreption": "At the edge of Edena, where the simulation meets the void, only art survives.",
+        "filter": ["Recent", "Premium"],
+        "verified": true,
+        "userInfo": { "name": "Angel Lubin", "img": "/images/creators/Angel Lubin.png" }
+      },
+      {
+        "id": 36,
+        "postTitle": "Warp Hound #14",
+        "postImg": "/images/NTFs/ColorfulDog 0524.png",
+        "postPrice": 1.88,
+        "postHightesBid": 0.94,
+        "postdescreption": "Faster than light, this hound navigates warp lanes across six galaxies in search of rare tokens.",
+        "filter": ["Most relevant", "Premium", "DSGN Animals"],
+        "userInfo": { "name": "Lydia Culhane", "img": "/images/creators/Lydia Culhane.png" }
+      },
+      {
+        "id": 37,
+        "postTitle": "Star Tribe Bear",
+        "postImg": "/images/NTFs/Designer Bear.png",
+        "postPrice": 3.75,
+        "postHightesBid": 1.90,
+        "postdescreption": "Every bear has a constellation. This one wears the entire Milky Way.",
+        "filter": ["Recent", "Premium", "DSGN Animals"],
+        "userInfo": { "name": "Kianna Donin", "img": "/images/creators/Kianna Donin.png" }
+      },
+      {
+        "id": 38,
+        "postTitle": "Interstellar Saga #7",
+        "postImg": "/images/NTFs/Astro Fiction.png",
+        "postPrice": 2.10,
+        "postHightesBid": 1.05,
+        "postdescreption": "A saga seven chapters long, each rendered in a separate frequency of light invisible to the human eye.",
+        "filter": ["Recent", "Premium", "Space"],
+        "verified": true,
+        "userInfo": { "name": "Allison Torff", "img": "/images/creators/Allison Torff.png" }
+      },
+      {
+        "id": 39,
+        "postTitle": "Neon Spore #221",
+        "postImg": "/images/NTFs/Magic Mushroom 0325.png",
+        "postPrice": 0.0,
+        "postHightesBid": 0,
+        "postdescreption": "Airborne and electric, these spores carry the genetic code of a civilization that never used paper.",
+        "filter": ["Free", "Magic Mushrooms"],
+        "userInfo": { "name": "Phillip Lipshutz", "img": "/images/creators/Phillip Lipshutz.png" }
+      },
+      {
+        "id": 40,
+        "postTitle": "Circuit Grove",
+        "postImg": "/images/NTFs/Space Tales.png",
+        "postPrice": 1.60,
+        "postHightesBid": 0.70,
+        "postdescreption": "A forest where every tree is a server and every leaf is a transaction. Welcome to the circuit grove.",
+        "filter": ["Premium", "Space"],
+        "userInfo": { "name": "Marilyn Torff", "img": "/images/creators/Marilyn Torff.png" }
+      },
+      {
+        "id": 41,
+        "postTitle": "Bass Drop Bot #88",
+        "postImg": "/images/NTFs/Happy Robot 032.png",
+        "postPrice": 2.55,
+        "postHightesBid": 1.20,
+        "postdescreption": "Programmed for one purpose: the perfect bass drop. 808s hard-coded into its neural chipset.",
+        "filter": ["Most relevant", "Premium", "Disco Machines"],
+        "verified": true,
+        "userInfo": { "name": "Alfredo Septimus", "img": "/images/creators/Alfredo Septimus.png" }
+      },
+      {
+        "id": 42,
+        "postTitle": "Orbital Bloom",
+        "postImg": "/images/NTFs/Cherry Blossom Girl 037.png",
+        "postPrice": 1.99,
+        "postHightesBid": 0.99,
+        "postdescreption": "Petals scatter across orbital rings. Gravity is optional. Beauty is not.",
+        "filter": ["Most relevant", "Premium"],
+        "userInfo": { "name": "Rayna Bator", "img": "/images/creators/Rayna Bator.png" }
+      },
+      {
+        "id": 43,
+        "postTitle": "Hyper Canine #330",
+        "postImg": "/images/NTFs/Colorful Dog 0344.png",
+        "postPrice": 2.77,
+        "postHightesBid": 1.33,
+        "postdescreption": "A canine augmented beyond biology. Part dog, part data stream, entirely unstoppable.",
+        "filter": ["Most relevant", "Premium", "DSGN Animals"],
+        "userInfo": { "name": "Lydia Culhane", "img": "/images/creators/Lydia Culhane.png" }
+      },
+      {
+        "id": 44,
+        "postTitle": "Solar Dunes",
+        "postImg": "/images/NTFs/Desert Walk.png",
+        "postPrice": 0.88,
+        "postHightesBid": 2.10,
+        "postdescreption": "Where sand is made of photons and the sun is a memory. A desert forged from light and forgotten time.",
+        "filter": ["Recent", "Premium", "Space"],
+        "userInfo": { "name": "Lindsey Lipshutz", "img": "/images/creators/Lindsey Lipshutz.png" }
+      },
+      {
+        "id": 45,
+        "postTitle": "Astro Funk #19",
+        "postImg": "/images/NTFs/Dancing Robots 0987.png",
+        "postPrice": 3.00,
+        "postHightesBid": 1.50,
+        "postdescreption": "Funky robots from outer space who learned to dance before they learned to speak.",
+        "filter": ["Recent", "Premium", "Disco Machines"],
+        "userInfo": { "name": "Maria Rosser", "img": "/images/creators/Maria Rosser.png" }
+      },
+      {
+        "id": 46,
+        "postTitle": "Galactic Freeze #5",
+        "postImg": "/images/NTFs/IceCream Ape 0324.png",
+        "postPrice": 4.80,
+        "postHightesBid": 2.30,
+        "postdescreption": "Frozen in time at the center of the galaxy. Taste the cosmos, one scoop at a time.",
+        "filter": ["Most relevant", "Premium", "DSGN Animals"],
+        "verified": true,
+        "userInfo": { "name": "Jocelyn Westervelt", "img": "/images/creators/Jocelyn Westervelt.png" }
+      },
+      {
+        "id": 47,
+        "postTitle": "Quantum Bloom",
+        "postImg": "/images/NTFs/Cherry Blossom Girl 035.png",
+        "postPrice": 1.15,
+        "postHightesBid": 0.55,
+        "postdescreption": "Exists in two states simultaneously. Look and it blooms. Look away and it fades. Schrödinger's flower.",
+        "filter": ["Premium"],
+        "userInfo": { "name": "Rayna Bator", "img": "/images/creators/Rayna Bator.png" }
+      },
+      {
+        "id": 48,
+        "postTitle": "Dark Matter #002",
+        "postImg": "/images/NTFs/Distant Galaxy.png",
+        "postPrice": 7.00,
+        "postHightesBid": 4.20,
+        "postdescreption": "27% of the universe, rendered for the first time. Science says it's invisible. This proves otherwise.",
+        "filter": ["Recent", "Premium", "Space"],
+        "verified": true,
+        "userInfo": { "name": "Skylar Levin", "img": "/images/creators/Skylar Levin.png" }
+      },
+      {
+        "id": 49,
+        "postTitle": "Free Bot #001",
+        "postImg": "/images/NTFs/Happy Robot 024.png",
+        "postPrice": 0.0,
+        "postHightesBid": 0,
+        "postdescreption": "Every robot deserves freedom. This one is already free — and so is this NFT.",
+        "filter": ["Free", "Disco Machines"],
+        "userInfo": { "name": "Davis Workman", "img": "/images/creators/Davis Workman.png" }
+      },
+      {
+        "id": 50,
+        "postTitle": "Lunar Corgi #44",
+        "postImg": "/images/NTFs/Colorful Dog 0356.png",
+        "postPrice": 0.0,
+        "postHightesBid": 0,
+        "postdescreption": "One small step for dog, one giant leap for dogkind. The first corgi on the moon.",
+        "filter": ["Free", "DSGN Animals"],
+        "userInfo": { "name": "Lydia Culhane", "img": "/images/creators/Lydia Culhane.png" }
+      },
+      {
+        "id": 51,
+        "postTitle": "Midnight Spore",
+        "postImg": "/images/NTFs/Magic Mushroom 0325.png",
+        "postPrice": 1.30,
+        "postHightesBid": 0.60,
+        "postdescreption": "Sprouting at midnight from the digital soil, this spore carries the secrets of the midnight blockchain.",
+        "filter": ["Recent", "Premium", "Magic Mushrooms"],
+        "userInfo": { "name": "Phillip Lipshutz", "img": "/images/creators/Phillip Lipshutz.png" }
+      },
+      {
+        "id": 52,
+        "postTitle": "Cosmo Voyage #8",
+        "postImg": "/images/NTFs/Space Travel.png",
+        "postPrice": 3.60,
+        "postHightesBid": 1.80,
+        "postdescreption": "Eight voyages, eight light-years, eight dimensions. This NFT is your boarding pass.",
+        "filter": ["Premium", "Space"],
+        "verified": true,
+        "userInfo": { "name": "Randy Carder", "img": "/images/creators/Randy Carder.png" }
+      },
+      {
+        "id": 53,
+        "postTitle": "Echo Protocol",
+        "postImg": "/images/NTFs/Astro Fiction.png",
+        "postPrice": 2.45,
+        "postHightesBid": 1.10,
+        "postdescreption": "A signal sent 10,000 years ago just arrived. This is what it looks like decoded through modern art.",
+        "filter": ["Recent", "Premium", "Space"],
+        "userInfo": { "name": "Allison Torff", "img": "/images/creators/Allison Torff.png" }
+      },
+      {
+        "id": 54,
+        "postTitle": "Rhythm Engine #66",
+        "postImg": "/images/NTFs/Happy Robot 032.png",
+        "postPrice": 1.90,
+        "postHightesBid": 0.95,
+        "postdescreption": "Built to groove, wired to the universal tempo. Its rhythm syncs with every blockchain heartbeat.",
+        "filter": ["Most relevant", "Premium", "Disco Machines"],
+        "userInfo": { "name": "Alfredo Septimus", "img": "/images/creators/Alfredo Septimus.png" }
+      },
+      {
+        "id": 55,
+        "postTitle": "Emerald Canopy",
+        "postImg": "/images/NTFs/Space Tales.png",
+        "postPrice": 2.00,
+        "postHightesBid": 0.90,
+        "postdescreption": "A forest canopy rendered in emerald light. Photosynthesis meets proof-of-work in this living NFT.",
+        "filter": ["Premium", "Space"],
+        "userInfo": { "name": "Marilyn Torff", "img": "/images/creators/Marilyn Torff.png" }
+      },
+      {
+        "id": 56,
+        "postTitle": "Frozen Horizon",
+        "postImg": "/images/NTFs/Sunset Dimension.png",
+        "postPrice": 1.55,
+        "postHightesBid": 0.75,
+        "postdescreption": "A horizon suspended at the exact moment of first light. Time-locked in the blockchain forever.",
+        "filter": ["Premium", "Space"],
+        "userInfo": { "name": "Maria Rosser", "img": "/images/creators/Maria Rosser.png" }
+      },
+      {
+        "id": 57,
+        "postTitle": "Titan Hound #88",
+        "postImg": "/images/NTFs/Colorful Dog 0344.png",
+        "postPrice": 5.10,
+        "postHightesBid": 2.55,
+        "postdescreption": "Bred on Titan, trained on Enceladus. The most fearsome canine in the outer solar system.",
+        "filter": ["Most relevant", "Premium", "DSGN Animals"],
+        "verified": true,
+        "userInfo": { "name": "Lydia Culhane", "img": "/images/creators/Lydia Culhane.png" }
+      },
+      {
+        "id": 58,
+        "postTitle": "Prism Ape #17",
+        "postImg": "/images/NTFs/IceCream Ape 0324.png",
+        "postPrice": 3.90,
+        "postHightesBid": 1.95,
+        "postdescreption": "When light hits this ape, it refracts into the entire history of digital art.",
+        "filter": ["Most relevant", "Premium", "DSGN Animals"],
+        "userInfo": { "name": "Jocelyn Westervelt", "img": "/images/creators/Jocelyn Westervelt.png" }
+      },
+      {
+        "id": 59,
+        "postTitle": "Drift Protocol #3",
+        "postImg": "/images/NTFs/Desert Walk.png",
+        "postPrice": 0.55,
+        "postHightesBid": 1.85,
+        "postdescreption": "Drifting without coordinates, guided only by the pull of the nearest liquidity pool.",
+        "filter": ["Recent", "Premium"],
+        "userInfo": { "name": "Lindsey Lipshutz", "img": "/images/creators/Lindsey Lipshutz.png" }
+      },
+      {
+        "id": 60,
+        "postTitle": "Cosmo Hound #22",
+        "postImg": "/images/NTFs/ColorfulDog 0524.png",
+        "postPrice": 2.20,
+        "postHightesBid": 1.10,
+        "postdescreption": "This hound navigates by star maps and chases satellites instead of cars.",
+        "filter": ["Premium", "DSGN Animals"],
+        "userInfo": { "name": "Lydia Culhane", "img": "/images/creators/Lydia Culhane.png" }
+      },
+      {
+        "id": 61,
+        "postTitle": "Starfall #11",
+        "postImg": "/images/NTFs/Distant Galaxy.png",
+        "postPrice": 4.15,
+        "postHightesBid": 2.00,
+        "postdescreption": "11 stars fell simultaneously. This captures the exact nanosecond of their cascade.",
+        "filter": ["Recent", "Premium", "Space"],
+        "verified": true,
+        "userInfo": { "name": "Skylar Levin", "img": "/images/creators/Skylar Levin.png" }
+      },
+      {
+        "id": 62,
+        "postTitle": "Retro Orbit",
+        "postImg": "/images/NTFs/CryptoCity.png",
+        "postPrice": 1.45,
+        "postHightesBid": 0.70,
+        "postdescreption": "A city built on the nostalgic architecture of early blockchain. Retro never looked so futuristic.",
+        "filter": ["Most relevant", "Premium", "Space"],
+        "userInfo": { "name": "Jaydon Ekstrom", "img": "/images/creators/Jaydon Ekstrom Bothman.png" }
+      },
+      {
+        "id": 63,
+        "postTitle": "Spectral Fungi #9",
+        "postImg": "/images/NTFs/Magic Mushroom 0325.png",
+        "postPrice": 0.80,
+        "postHightesBid": 0.30,
+        "postdescreption": "Visible only in ultraviolet light. This fungus exists at the edge of what the human eye can perceive.",
+        "filter": ["Premium", "Magic Mushrooms"],
+        "userInfo": { "name": "Phillip Lipshutz", "img": "/images/creators/Phillip Lipshutz.png" }
+      },
+      {
+        "id": 64,
+        "postTitle": "Apex Bear #04",
+        "postImg": "/images/NTFs/Designer Bear.png",
+        "postPrice": 8.00,
+        "postHightesBid": 5.00,
+        "postdescreption": "The apex predator of the NFT jungle. Rarest of the rare. Only 4 ever minted.",
+        "filter": ["Most relevant", "Premium", "DSGN Animals"],
+        "verified": true,
+        "userInfo": { "name": "Kianna Donin", "img": "/images/creators/Kianna Donin.png" }
+      },
+      {
+        "id": 65,
+        "postTitle": "Pulse Dancer #500",
+        "postImg": "/images/NTFs/Dancing Robot 0312.png",
+        "postPrice": 0.0,
+        "postHightesBid": 0,
+        "postdescreption": "Edition 500 of the pulse dancer series. Free forever, because art should be free.",
+        "filter": ["Free", "Disco Machines"],
+        "userInfo": { "name": "Davis Workman", "img": "/images/creators/Davis Workman.png" }
+      },
+      {
+        "id": 66,
+        "postTitle": "Solar Wind #42",
+        "postImg": "/images/NTFs/Space Travel.png",
+        "postPrice": 2.65,
+        "postHightesBid": 1.30,
+        "postdescreption": "Riding a solar wind at 400 km/s. This NFT arrives in your wallet faster than light.",
+        "filter": ["Premium", "Space"],
+        "userInfo": { "name": "Randy Carder", "img": "/images/creators/Randy Carder.png" }
+      },
+      {
+        "id": 67,
+        "postTitle": "Lunar Tales Vol.2",
+        "postImg": "/images/NTFs/Space Tales.png",
+        "postPrice": 1.80,
+        "postHightesBid": 0.85,
+        "postdescreption": "Volume 2 of the lunar chronicles. The moon has stories older than the blockchain.",
+        "filter": ["Premium", "Space"],
+        "userInfo": { "name": "Marilyn Torff", "img": "/images/creators/Marilyn Torff.png" }
+      },
+      {
+        "id": 68,
+        "postTitle": "Gravity Bear #03",
+        "postImg": "/images/NTFs/Designer Bear.png",
+        "postPrice": 3.20,
+        "postHightesBid": 1.60,
+        "postdescreption": "Unaffected by gravitational pull, this bear floats serenely above the blockchain layer.",
+        "filter": ["Recent", "Premium", "DSGN Animals"],
+        "userInfo": { "name": "Kianna Donin", "img": "/images/creators/Kianna Donin.png" }
+      },
+      {
+        "id": 69,
+        "postTitle": "Bio Circuit",
+        "postImg": "/images/NTFs/Life On Edena.png",
+        "postPrice": 4.50,
+        "postHightesBid": 2.20,
+        "postdescreption": "Life and silicon fused into a single organism. The bio circuit breathes, processes, and evolves.",
+        "filter": ["Recent", "Premium"],
+        "verified": true,
+        "userInfo": { "name": "Angel Lubin", "img": "/images/creators/Angel Lubin.png" }
+      },
+      {
+        "id": 70,
+        "postTitle": "Phantom Racer #7",
+        "postImg": "/images/NTFs/Happy Robot 032.png",
+        "postPrice": 2.95,
+        "postHightesBid": 1.45,
+        "postdescreption": "A phantom that races through smart contract lanes at a speed no gas fee can slow down.",
+        "filter": ["Most relevant", "Premium", "Disco Machines"],
+        "verified": true,
+        "userInfo": { "name": "Alfredo Septimus", "img": "/images/creators/Alfredo Septimus.png" }
+      },
+      {
+        "id": 71,
+        "postTitle": "Vortex Canine",
+        "postImg": "/images/NTFs/Colorful Dog 0356.png",
+        "postPrice": 0.0,
+        "postHightesBid": 0,
+        "postdescreption": "Caught in the vortex between dimensions, this canine exists in all states of fetch simultaneously.",
+        "filter": ["Free", "DSGN Animals"],
+        "userInfo": { "name": "Lydia Culhane", "img": "/images/creators/Lydia Culhane.png" }
+      },
+      {
+        "id": 72,
+        "postTitle": "Nebula Bloom #03",
+        "postImg": "/images/NTFs/Cherry Blossom Girl 037.png",
+        "postPrice": 1.70,
+        "postHightesBid": 0.80,
+        "postdescreption": "Petals made from ionized gas and stellar nursery dust. The universe's most delicate garden.",
+        "filter": ["Most relevant", "Premium"],
+        "userInfo": { "name": "Rayna Bator", "img": "/images/creators/Rayna Bator.png" }
+      },
+      {
+        "id": 73,
+        "postTitle": "Cryptic Terrain",
+        "postImg": "/images/NTFs/Astro Fiction.png",
+        "postPrice": 3.40,
+        "postHightesBid": 1.70,
+        "postdescreption": "A terrain mapped only by satellite. Walk across it and your footsteps become blocks on the chain.",
+        "filter": ["Recent", "Premium", "Space"],
+        "userInfo": { "name": "Allison Torff", "img": "/images/creators/Allison Torff.png" }
+      },
+      {
+        "id": 74,
+        "postTitle": "Neon Shroom #14",
+        "postImg": "/images/NTFs/Magic Mushroom 0325.png",
+        "postPrice": 1.05,
+        "postHightesBid": 0.50,
+        "postdescreption": "Glowing at 10,000 lumens in the dark forest of the deep web. Find it if you can.",
+        "filter": ["Recent", "Premium", "Magic Mushrooms"],
+        "verified": true,
+        "userInfo": { "name": "Phillip Lipshutz", "img": "/images/creators/Phillip Lipshutz.png" }
+      },
+      {
+        "id": 75,
+        "postTitle": "Hyperspace Dog",
+        "postImg": "/images/NTFs/Colorful Dog 0344.png",
+        "postPrice": 2.40,
+        "postHightesBid": 1.20,
+        "postdescreption": "Equipped with a hyperdrive collar, this dog bypasses the speed of light on every walk.",
+        "filter": ["Most relevant", "Premium", "DSGN Animals"],
+        "userInfo": { "name": "Lydia Culhane", "img": "/images/creators/Lydia Culhane.png" }
+      },
+      {
+        "id": 76,
+        "postTitle": "Zero Gravity #99",
+        "postImg": "/images/NTFs/Space Travel.png",
+        "postPrice": 0.0,
+        "postHightesBid": 0,
+        "postdescreption": "In zero gravity, art floats freely. No walls, no frames, no gas fees. Completely free.",
+        "filter": ["Free", "Space"],
+        "userInfo": { "name": "Randy Carder", "img": "/images/creators/Randy Carder.png" }
+      },
+      {
+        "id": 77,
+        "postTitle": "Midnight Ape #31",
+        "postImg": "/images/NTFs/IceCream Ape.png",
+        "postPrice": 5.70,
+        "postHightesBid": 2.85,
+        "postdescreption": "At midnight, when the blockchain sleeps, this ape is the only one still mining.",
+        "filter": ["Most relevant", "Premium", "DSGN Animals"],
+        "verified": true,
+        "userInfo": { "name": "Jocelyn Westervelt", "img": "/images/creators/Jocelyn Westervelt.png" }
+      },
+      {
+        "id": 78,
+        "postTitle": "Stellar Drift #2",
+        "postImg": "/images/NTFs/Distant Galaxy.png",
+        "postPrice": 2.75,
+        "postHightesBid": 1.35,
+        "postdescreption": "Drifting between star systems, this NFT has accumulated more miles than any physical art.",
+        "filter": ["Recent", "Premium", "Space"],
+        "userInfo": { "name": "Skylar Levin", "img": "/images/creators/Skylar Levin.png" }
+      },
+      {
+        "id": 79,
+        "postTitle": "Bass Circuit Vol.3",
+        "postImg": "/images/NTFs/Dancing Robots 0987.png",
+        "postPrice": 3.30,
+        "postHightesBid": 1.65,
+        "postdescreption": "Volume 3 of the bass circuit anthology. Each track is a smart contract. Each beat is a block.",
+        "filter": ["Recent", "Premium", "Disco Machines"],
+        "userInfo": { "name": "Maria Rosser", "img": "/images/creators/Maria Rosser.png" }
+      },
+      {
+        "id": 80,
+        "postTitle": "Deep Space Bloom",
+        "postImg": "/images/NTFs/Cherry Blossom Girl 035.png",
+        "postPrice": 1.35,
+        "postHightesBid": 0.65,
+        "postdescreption": "A bloom discovered at L2 orbit, nurtured on starlight and validated by consensus.",
+        "filter": ["Most relevant", "Premium"],
+        "userInfo": { "name": "Rayna Bator", "img": "/images/creators/Rayna Bator.png" }
+      }
+    ],
+    "Collections": [
+      {
+        "id": 1,
+        "collectionName": "DSGN Animals",
+        "primaryImg": "/images/T-C/F/Primary Photo Placeholder.png",
+        "secondaryImg": [
+          "/images/T-C/F/Secondary Photo Placeholder.png",
+          "/images/T-C/F/Secondary Photo Placeholder (1).png"
+        ],
+        "collectionNumper": 105,
+        "userInfo": {
+          "name": "Kianna Donin",
+          "img": "/images/creators/Kianna Donin.png"
+        }
+      },
+      {
+        "id": 2,
+        "collectionName": "Magic Mushrooms",
+        "primaryImg": "/images/T-C/S/Primary Photo Placeholder.png",
+        "secondaryImg": [
+          "/images/T-C/S/Secondary Photo Placeholder.png",
+          "/images/T-C/S/Secondary Photo Placeholder (1).png"
+        ],
+        "collectionNumper": 540,
+        "userInfo": {
+          "name": "Phillip Lipshutz",
+          "img": "/images/creators/Phillip Lipshutz.png"
+        }
+      },
+      {
+        "id": 3,
+        "collectionName": "Disco Machines",
+        "primaryImg": "/images/T-C/T/Primary Photo Placeholder.png",
+        "secondaryImg": [
+          "/images/T-C/T/Secondary Photo Placeholder.png",
+          "/images/T-C/T/Secondary Photo Placeholder (1).png"
+        ],
+        "collectionNumper": 110,
+        "userInfo": {
+          "name": "Davis Workman",
+          "img": "/images/creators/Davis Workman.png"
+        }
+      }
+    ]
+  },
+  "creators": [
+    {
+      "Verified": 1,
+      "userName": "Alfredo Septimus",
+      "userImg": "/images/creators/Alfredo Septimus.png",
+      "NFTsSold": 200,
+      "userTotalSales": 27.05,
+      "Volume": 125,
+      "Followers": 254,
+      "rankingState": "up",
+      "bio": "Pushing pixels and pushing boundaries. NFT artist inspired by cyberpunk and digital surrealism. Let's redefine art together!",
+      "userLinks": ["faceBook", "Discord", "YouTube", "Twitter", "Instagram"],
+      "userPanar": "/images/Panners/Alfredo Septimus.jpg",
+      "userID": "7BVsIfiAsH3Kg",
+      "NFTs": [5],
+      "collection": []
+    },
+    {
+      "Verified": 1,
+      "userName": "Allison Torff",
+      "userImg": "/images/creators/Allison Torff.png",
+      "NFTsSold": 400,
+      "userTotalSales": 45.03,
+      "Volume": 365,
+      "Followers": 3000,
+      "rankingState": "up",
+      "bio": "NFTs meet the supernatural. Minting one-of-a-kind ethereal visions. Collector of haunted pixels and digital spells.",
+      "userLinks": ["faceBook", "Discord", "YouTube", "Twitter", "Instagram"],
+      "userPanar": "/images/Panners/Allison Torff.jpg",
+      "userID": "U7GJ9ggAe6bSZ",
+      "NFTs": [3],
+      "collection": []
+    },
+    {
+      "Verified": 1,
+      "userName": "Angel Lubin",
+      "userImg": "/images/creators/Angel Lubin.png",
+      "NFTsSold": 123,
+      "userTotalSales": 21.01,
+      "Volume": 54,
+      "Followers": 1514,
+      "rankingState": "down",
+      "bio": "Storyteller in pixels. Minting emotions, memories, and other intangible wonders. Follow for exclusive glimpses of my NFT journey.",
+      "userLinks": ["faceBook", "Discord", "YouTube", "Twitter", "Instagram"],
+      "userPanar": "/images/Panners/Angel Lubin.jpg",
+      "userID": "yn5QzWYQIAN2y",
+      "NFTs": [2],
+      "collection": []
+    },
+    {
+      "Verified": 1,
+      "userName": "Davis Franci",
+      "userImg": "/images/creators/Davis Franci.png",
+      "NFTsSold": 82,
+      "userTotalSales": 16.09,
+      "Volume": 42,
+      "Followers": 151,
+      "rankingState": "down",
+      "bio": "Poet of the decentralized world. Writing stories you can own and trade. Each NFT holds a piece of my soul—join the journey.",
+      "userLinks": ["faceBook", "Discord", "YouTube", "Twitter", "Instagram"],
+      "userPanar": "/images/Panners/Davis Franci.jpg",
+      "userID": "2PubpAp0IqxXa",
+      "NFTs": [],
+      "collection": []
+    },
+    {
+      "Verified": 1,
+      "userName": "Davis Workman",
+      "userImg": "/images/creators/Davis Workman.png",
+      "NFTsSold": 138,
+      "userTotalSales": 24.82,
+      "Volume": 115,
+      "Followers": 51,
+      "rankingState": "up",
+      "bio": "Outer space meets blockchain. Creating NFTs inspired by the cosmos. Be ready to collect the universe!",
+      "userLinks": ["faceBook", "Discord", "YouTube", "Twitter", "Instagram"],
+      "userPanar": "/images/Panners/Davis Workman.jpg",
+      "userID": "VU6tFcxpUdHv5",
+      "NFTs": [6],
+      "collection": [3]
+    },
+    {
+      "Verified": 1,
+      "userName": "Jaydon Ekstrom",
+      "userImg": "/images/creators/Jaydon Ekstrom Bothman.png",
+      "NFTsSold": 240,
+      "userTotalSales": 29.19,
+      "Volume": 101,
+      "Followers": 151,
+      "rankingState": "up",
+      "bio": "NFTs crafted with passion and pixels. Collector, creator, and daydreamer. Join my universe of vibrant art!",
+      "userLinks": ["faceBook", "Discord", "YouTube", "Twitter", "Instagram"],
+      "userPanar": "/images/Panners/Jaydon Ekstrom Bothman.jpg",
+      "userID": "PfSGFKBiA3LVw",
+      "NFTs": [20],
+      "collection": []
+    },
+    {
+      "Verified": 1,
+      "userName": "Jocelyn Westervelt",
+      "userImg": "/images/creators/Jocelyn Westervelt.png",
+      "NFTsSold": 137,
+      "userTotalSales": 24.04,
+      "Volume": 51,
+      "Followers": 211,
+      "rankingState": "down",
+      "bio": "NFT explorer & blockchain believer. On a mission to discover the next digital masterpiece. Collector of the weird and wonderful.",
+      "userLinks": ["faceBook", "Discord", "YouTube", "Twitter", "Instagram"],
+      "userPanar": "/images/Panners/Jocelyn Westervelt.jpg",
+      "userID": "m0rqjgd6wXi6c",
+      "NFTs": [14, 17],
+      "collection": []
+    },
+    {
+      "Verified": 0,
+      "userName": "Kianna Donin",
+      "userImg": "/images/creators/Kianna Donin.png",
+      "NFTsSold": 90,
+      "userTotalSales": 18.01,
+      "Volume": 15,
+      "Followers": 30,
+      "rankingState": "up",
+      "bio": "Traveling the NFT world one drop at a time. Bringing neon dreams to life on the blockchain. Let’s shine together.",
+      "userLinks": ["faceBook", "Discord", "YouTube", "Twitter", "Instagram"],
+      "userPanar": "/images/Panners/Kianna Donin.jpg",
+      "userID": "ynbUOXU7r7M0X",
+      "NFTs": [7],
+      "collection": [1]
+    },
+    {
+      "Verified": 0,
+      "userName": "Kianna Stanton",
+      "userImg": "/images/creators/Kianna Stanton.png",
+      "NFTsSold": 34,
+      "userTotalSales": 8.99,
+      "Volume": 10,
+      "Followers": 26,
+      "rankingState": "up",
+      "bio": "Turning concepts into collectibles. NFT artist focused on abstract designs and digital sculptures. Follow for exclusive previews.",
+      "userLinks": ["faceBook", "Discord", "YouTube", "Twitter", "Instagram"],
+      "userPanar": "/images/Panners/Kianna Stanton.jpg",
+      "userID": "ojri7g9pD9Ly0",
+      "NFTs": [],
+      "collection": []
+    },
+
+    {
+      "Verified": 0,
+      "userName": "Lindsey Lipshutz",
+      "userImg": "/images/creators/Lindsey Lipshutz.png",
+      "NFTsSold": 37,
+      "userTotalSales": 9.01,
+      "Volume": 115,
+      "Followers": 32,
+      "rankingState": "up",
+      "bio": "Hacking pixels and curating crypto art. NFT collector with a love for glitch aesthetics and retro vibes.",
+      "userLinks": ["faceBook", "Discord", "YouTube", "Twitter", "Instagram"],
+      "userPanar": "/images/Panners/Lindsey Lipshutz.jpg",
+      "userID": "yeB3NuEaVVRXE",
+      "NFTs": [13],
+      "collection": []
+    },
+    {
+      "Verified": 1,
+      "userName": "Livia Rosser",
+      "userImg": "/images/creators/Livia Rosser.png",
+      "NFTsSold": 324,
+      "userTotalSales": 34.01,
+      "Volume": 110,
+      "Followers": 321,
+      "rankingState": "up",
+      "bio": "Uncovering the beauty of the blockchain. NFT creator inspired by nature, color, and cosmic mystery. Join me for drops.",
+      "userLinks": ["faceBook", "Discord", "YouTube", "Twitter", "Instagram"],
+      "userPanar": "/images/Panners/Livia Rosser.jpg",
+      "userID": "pOW4ldHBOfERK",
+      "NFTs": [],
+      "collection": []
+    },
+
+    {
+      "Verified": 0,
+      "userName": "Lydia Culhane",
+      "userImg": "/images/creators/Lydia Culhane.png",
+      "NFTsSold": 50,
+      "userTotalSales": 12.35,
+      "Volume": 15,
+      "Followers": 25,
+      "rankingState": "up",
+      "bio": "Stealing pixels and minting dreams. NFT artist obsessed with pixel art and digital graffiti. Come aboard for rare finds.",
+      "userLinks": ["faceBook", "Discord", "YouTube", "Twitter", "Instagram"],
+      "userPanar": "/images/Panners/Lydia Culhane.jpg",
+      "userID": "qtTPWbyBmkGAL",
+      "NFTs": [8, 15, 18],
+      "collection": []
+    },
+    {
+      "Verified": 0,
+      "userName": "Maria Rosser",
+      "userImg": "/images/creators/Maria Rosser.png",
+      "NFTsSold": 47,
+      "userTotalSales": 11.12,
+      "Volume": 11,
+      "Followers": 150,
+      "rankingState": "down",
+      "bio": "Transforming imagination into NFTs. Creating surreal worlds and bringing the unseen to the blockchain. Ready for your journey?",
+      "userLinks": ["faceBook", "Discord", "YouTube", "Twitter", "Instagram"],
+      "userPanar": "/images/Panners/Maria Rosser.jpg",
+      "userID": "wgUPNMSrC2rlB",
+      "NFTs": [9, 16],
+      "collection": []
+    },
+    {
+      "Verified": 0,
+      "userName": "Marilyn Torff",
+      "userImg": "/images/creators/Marilyn Torff.png",
+      "NFTsSold": 35,
+      "userTotalSales": 8.92,
+      "Volume": 40,
+      "Followers": 15,
+      "rankingState": "down",
+      "bio": "NFT enthusiast and digital visionary. Curating unique NFT collections from around the metaverse. Follow for my latest finds!",
+      "userLinks": ["faceBook", "Discord", "YouTube", "Twitter", "Instagram"],
+      "userPanar": "/images/Panners/Marilyn Torff.jpg",
+      "userID": "3AQWIl4AXDmiF",
+      "NFTs": [19],
+      "collection": []
+    },
+    {
+      "Verified": 0,
+      "userName": "Phillip Lipshutz",
+      "userImg": "/images/creators/Phillip Lipshutz.png",
+      "NFTsSold": 40,
+      "userTotalSales": 9.64,
+      "Volume": 51,
+      "Followers": 211,
+      "rankingState": "up",
+      "bio": "Cultivating digital flora on the blockchain. Minting colorful blooms and delicate digital designs. Collector of natural beauty.",
+      "userLinks": ["faceBook", "Discord", "YouTube", "Twitter", "Instagram"],
+      "userPanar": "/images/Panners/Phillip Lipshutz.jpg",
+      "userID": "0zFZx40T9WEhB",
+      "NFTs": [4],
+      "collection": [2]
+    },
+    {
+      "Verified": 0,
+      "userName": "Randy Carder",
+      "userImg": "/images/creators/Randy Carder.png",
+      "NFTsSold": 20,
+      "userTotalSales": 6.21,
+      "Volume": 11,
+      "Followers": 24,
+      "rankingState": "down",
+      "bio": "NFT art with a twist. Exploring alternate realities and glitch art. Collector of rare visions and digital oddities.",
+      "userLinks": ["faceBook", "Discord", "YouTube", "Twitter", "Instagram"],
+      "userPanar": "/images/Panners/Randy Carder.jpg",
+      "userID": "tH6cpbsuXkcUj",
+      "NFTs": [12],
+      "collection": []
+    },
+    {
+      "Verified": 0,
+      "userName": "Rayna Bator",
+      "userImg": "/images/creators/Rayna Bator.png",
+      "NFTsSold": 10,
+      "userTotalSales": 3.95,
+      "Volume": 41,
+      "Followers": 22,
+      "rankingState": "up",
+      "bio": "Mapping the metaverse, one NFT at a time. Journey with me through surreal landscapes and mystical worlds.",
+      "userLinks": ["faceBook", "Discord", "YouTube", "Twitter", "Instagram"],
+      "userPanar": "/images/Panners/Rayna Bator.jpg",
+      "userID": "2vugtMomInNxs",
+      "NFTs": [1, 10, 21],
+      "collection": []
+    },
+    {
+      "Verified": 0,
+      "userName": "Ruben Carder",
+      "userImg": "/images/creators/Ruben Carder.png",
+      "NFTsSold": 45,
+      "userTotalSales": 10.97,
+      "Volume": 11,
+      "Followers": 154,
+      "rankingState": "up",
+      "bio": "NFT artist and collector weaving magic into pixels. Specializing in spiritual and ethereal designs. Collect a piece of my soul.",
+      "userLinks": ["faceBook", "Discord", "YouTube", "Twitter", "Instagram"],
+      "userPanar": "/images/Panners/Ruben Carder.jpg",
+      "userID": "98QbaNeeioPwF",
+      "NFTs": [],
+      "collection": []
+    },
+
+    {
+      "Verified": 0,
+      "userName": "Skylar Levin",
+      "userImg": "/images/creators/Skylar Levin.png",
+      "NFTsSold": 18,
+      "userTotalSales": 5.88,
+      "Volume": 19,
+      "Followers": 30,
+      "rankingState": "up",
+      "bio": "On a quest for NFTs that move the spirit. Creating art that connects, inspires, and lives on the blockchain.",
+      "userLinks": ["faceBook", "Discord", "YouTube", "Twitter", "Instagram"],
+      "userPanar": "/images/Panners/Skylar Levin.jpg",
+      "userID": "zWwOPrN8rNVYD",
+      "NFTs": [11],
+      "collection": []
+    },
+    {
+      "Verified": 0,
+      "userName": "Terry Dorwart",
+      "userImg": "/images/creators/Terry Dorwart.png",
+      "NFTsSold": 7,
+      "userTotalSales": 2.05,
+      "Volume": 51,
+      "Followers": 15,
+      "rankingState": "down",
+      "bio": "Creating vibrant, electric worlds in the metaverse. NFT artist focused on neon color palettes and dreamscapes. Let’s glow!",
+      "userLinks": ["faceBook", "Discord", "YouTube", "Twitter", "Instagram"],
+      "userPanar": "/images/Panners/Terry Dorwart.jpg",
+      "userID": "SODq3N6gc8FVk",
+      "NFTs": [],
+      "collection": []
+    }
+  ],
+  "WatchLater": []
+}
