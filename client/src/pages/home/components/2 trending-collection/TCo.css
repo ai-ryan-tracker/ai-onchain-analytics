@@ -1,0 +1,69 @@
+#TCo .F2 {
+    font-size: 1.7rem;
+    background: linear-gradient(135deg, var(--lemon), var(--accent-purple));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+#TCo .userinfo {
+    all: unset;
+    cursor: pointer;
+}
+
+#TCo .owl-theme .owl-controls .owl-buttons div {
+    display: none;
+}
+
+#TCo .owl-theme .owl-controls .owl-page {
+    display: none;
+}
+
+#TCo #owl-demo {
+    -ms-touch-action: auto;
+    touch-action: auto;
+}
+
+#TCo #owl-demo .item {
+    margin: 9px;
+}
+
+#TCo #owl-demo .item .row {
+    margin: 0rem .01rem;
+}
+
+#TCo #owl-demo .item img {
+    border-radius: var(--_20px);
+    transition: 0.4s all;
+    box-shadow: 0 0 20px rgba(0, 217, 255, 0.2);
+}
+
+#TCo #owl-demo .item img:hover {
+    box-shadow: 0 0 30px rgba(0, 217, 255, 0.6);
+    transform: scale(1.05);
+}
+
+#TCo #owl-demo .item .collectionNum {
+    font-size: 1.2rem;
+    color: var(--dark-gray);
+    background: linear-gradient(135deg, var(--lemon), var(--accent-purple));
+    border-radius: var(--_20px);
+    cursor: pointer;
+    transition: .4s all;
+    box-shadow: 0 0 15px rgba(0, 217, 255, 0.4);
+}
+
+#TCo #owl-demo .item .collectionNum:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 25px rgba(0, 217, 255, 0.8);
+}
+
+#TCo #owl-demo .item .F3 {
+    font-size: 1.2rem;
+    color: var(--white);
+}
+
+#TCo #owl-demo .item .F4 {
+    font-size: .8rem;
+    color: rgba(255, 255, 255, 0.7);
+}

@@ -1,0 +1,77 @@
+#DisNewNFTs .F2 {
+    font-size: 1.7rem;
+    background: linear-gradient(135deg, var(--lemon), var(--accent-purple));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+#DisNewNFTs .LuEye {
+    font-size: 1.1rem;
+    color: var(--lemon);
+}
+
+#DisNewNFTs .btnTemp-outLine {
+    font-size: .9rem;
+}
+
+#DisNewNFTs .btnTemp-outLine:hover .LuEye {
+    color: var(--dark-gray);
+}
+
+#DisNewNFTs .card * {
+    text-decoration: none;
+}
+
+#DisNewNFTs .card {
+    background: linear-gradient(135deg, rgba(26, 26, 62, 0.8), rgba(45, 27, 94, 0.8));
+    border: 1px solid rgba(0, 217, 255, 0.2);
+    border-radius: var(--_20px);
+    overflow: hidden;
+    transition: 0.4s all;
+}
+
+#DisNewNFTs .card:hover {
+    border-color: rgba(0, 217, 255, 0.8);
+    box-shadow: 0 0 30px rgba(0, 217, 255, 0.4);
+    transform: translateY(-8px);
+}
+
+/* ################################# */
+#DisNewNFTs .card .CrdTools {
+    position: relative;
+    overflow: hidden;
+}
+
+#DisNewNFTs .card .card-text {
+    font-size: 1.2rem;
+    color: var(--white);
+}
+
+#DisNewNFTs .card .userinfo {
+    all: unset;
+    cursor: pointer;
+}
+
+#DisNewNFTs .card .userinfo img {
+    border-radius: var(--_50px);
+    border: 2px solid var(--lemon);
+}
+
+#DisNewNFTs .card .userinfo .F4 {
+    font-size: .9rem;
+    opacity: .9;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+#DisNewNFTs .card .prodictInfo .F4 {
+    font-size: .8rem;
+    opacity: .6;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+#DisNewNFTs .card .prodictInfo .F3 {
+    opacity: .9;
+    font-size: .9rem;
+    color: var(--white);
+}

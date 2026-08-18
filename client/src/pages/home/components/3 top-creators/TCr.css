@@ -1,0 +1,82 @@
+#topCreators .F2 {
+    font-size: 1.7rem;
+    background: linear-gradient(135deg, var(--lemon), var(--accent-purple));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+#topCreators .IoRocketOutline {
+    font-size: 1.1rem;
+    color: var(--lemon);
+}
+
+#topCreators .btnTemp-outLine {
+    font-size: .9rem;
+}
+
+#topCreators .btnTemp-outLine:hover .IoRocketOutline {
+    color: var(--dark-gray);
+}
+
+#topCreators .row .componantCreator {
+    all: unset;
+    cursor: pointer;
+    position: relative;
+    background: linear-gradient(135deg, rgba(26, 26, 62, 0.8), rgba(45, 27, 94, 0.8));
+    border: 1px solid rgba(0, 217, 255, 0.2);
+    border-radius: var(--_20px);
+    padding: 1.5rem;
+    transition: 0.4s all;
+}
+
+#topCreators .row .componantCreator:hover {
+    border-color: rgba(0, 217, 255, 0.8);
+    box-shadow: 0 0 30px rgba(0, 217, 255, 0.4);
+    transform: translateY(-8px);
+}
+
+#topCreators .row .componantCreator .ratedNump {
+    width: 28px;
+    height: 28px;
+    background: linear-gradient(135deg, var(--lemon), var(--accent-purple));
+    border-radius: var(--_50px);
+    position: absolute;
+    z-index: 3;
+    left: 0;
+    top: 0;
+    transform: translate(50%, 50%);
+    box-shadow: 0 0 15px rgba(0, 217, 255, 0.5);
+}
+
+#topCreators .row .componantCreator .ratedNump .F7 {
+    font-size: .8rem;
+    opacity: 1;
+    color: var(--dark-gray);
+}
+
+#topCreators .row .componantCreator img {
+    border-radius: var(--_50px);
+    border: 2px solid var(--lemon);
+    transition: 0.4s all;
+}
+
+#topCreators .row .componantCreator:hover img {
+    box-shadow: 0 0 20px rgba(0, 217, 255, 0.6);
+}
+
+#topCreators .row .componantCreator .creatorInfo>.F3 {
+    font-size: 1.2rem;
+    margin-bottom: .1rem;
+    color: var(--white);
+}
+
+#topCreators .row .componantCreator .creatorInfo .F4 {
+    opacity: .6;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+#topCreators .row .componantCreator .creatorInfo .F3cus {
+    opacity: .8;
+    color: var(--lemon);
+}
