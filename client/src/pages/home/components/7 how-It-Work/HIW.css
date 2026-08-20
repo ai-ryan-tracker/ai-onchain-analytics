@@ -1,0 +1,36 @@
+#howItWork .F2 {
+    font-size: 1.7rem;
+    background: linear-gradient(135deg, var(--lemon), var(--accent-purple));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+#howItWork .card-img-style {
+    background: linear-gradient(135deg, rgba(26, 26, 62, 0.8), rgba(45, 27, 94, 0.8));
+    border: 1px solid rgba(0, 217, 255, 0.2);
+    border-radius: var(--_20px);
+    padding: 1.5rem;
+    transition: 0.4s all;
+}
+
+#howItWork .card-img-style:hover {
+    border-color: rgba(0, 217, 255, 0.8);
+    box-shadow: 0 0 30px rgba(0, 217, 255, 0.4);
+    transform: translateY(-8px);
+}
+
+#howItWork .card-img-style img {
+    width: 82%;
+}
+
+#howItWork .card-img-style .F3 {
+    font-size: 1.15rem;
+    color: var(--white);
+}
+
+#howItWork .card-img-style .F4 {
+    font-size: .9rem;
+    opacity: .8;
+    color: rgba(255, 255, 255, 0.8);
+}
