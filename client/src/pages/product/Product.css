@@ -1,0 +1,1317 @@
+/* ####################
+-> product Data
+####################### */
+#product .productData {
+    background-color: var(--gray);
+    border-radius: var(--_10px);
+}
+
+/* -----------------product Img
+ */
+
+#product .productData .productImg img {
+    border-radius: var(--_10px);
+}
+
+/* -----------------product Info
+ */
+
+#product .productData .productInfo {
+    position: relative;
+}
+
+#product .productData .productInfo .postName {
+    color: var(--white);
+    font-family: WorkSans-M;
+    font-size: 1.5rem;
+}
+
+#product .productData .productInfo .productTitleRow {
+    align-items: center;
+}
+
+#product .productVerifiedFloat {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    background: rgba(59, 130, 246, 0.15);
+    color: #93c5fd;
+    border: 1px solid rgba(59, 130, 246, 0.35);
+    border-radius: 999px;
+    padding: 0.45rem 0.85rem;
+    font-size: 0.85rem;
+    font-family: SpaceMono-R;
+    z-index: 1;
+}
+
+#product .productVerifiedFloat svg {
+    width: 1rem;
+    height: 1rem;
+}
+
+#product .productData .productInfo .postDescription {
+    color: var(--white);
+    font-family: WorkSans-R;
+    font-size: .85rem;
+    opacity: .7;
+}
+
+#product .productData .productInfo>hr {
+    color: var(--white);
+}
+
+#product .productData .userInfo {
+    width: 12rem;
+    border: 1px solid rgb(108, 108, 108);
+    text-decoration: none;
+    border-radius: var(--_5px);
+    padding: 0px 0px 4px 0px;
+    cursor: pointer;
+}
+
+#product .productData .userInfo img {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+#product .productData .userInfo .createrTitle {
+    color: var(--white);
+    opacity: .5;
+    font-size: .7rem;
+    font-family: SpaceMono-R;
+}
+
+#product .productData .userInfo .userName {
+    color: var(--white);
+    font-family: WorkSans-R;
+    opacity: .9;
+    font-size: .9rem;
+}
+
+#product .productData .price .priceTitle {
+    color: var(--white);
+    opacity: .5;
+    font-size: .8rem;
+    font-family: SpaceMono-R;
+}
+
+#product .productData .price .ethValue {
+    color: var(--white);
+    font-size: 1.2rem;
+    font-family: WorkSans-M;
+}
+
+#product .productData .price .usdValue {
+    color: var(--white);
+    font-size: .8rem;
+    opacity: .8;
+    font-family: WorkSans-R;
+}
+
+#product .productData .buttonSection .btnOutLine,
+#product .productData .buttonSection .btnPold {
+    font-family: WorkSans-S;
+    border-radius: var(--_10px);
+    cursor: pointer;
+}
+
+#product .productData .buttonSection .btnOutLine {
+    border: 2px solid var(--lemon);
+    color: var(--white);
+}
+
+#product .productData .buttonSection .btnOutLine:hover {
+    border: 2px solid var(--lemon);
+    background-color: var(--lemon);
+    color: var(--black);
+}
+
+#product .productData .buttonSection .btnPold {
+    background-color: var(--lemon);
+    color: var(--black);
+}
+
+#product .productData .buttonSection .btnPold:hover {
+    background-color: rgb(59, 59, 59);
+    border: 2px solid var(--lemon);
+    color: var(--white);
+}
+
+
+
+/* #####################
+-> product For You
+######################## */
+#product .productForYou .Suggested {
+    color: var(--white);
+    font-family: Rubik-B;
+    text-transform: capitalize;
+    font-size: 1.1rem;
+}
+
+#product .productForYou .Suggested hr {
+    color: var(--white);
+    width: 98%;
+}
+
+#owlCreator,
+#owlProduct {
+    -ms-touch-action: auto;
+    touch-action: auto;
+}
+
+#product .owl-theme .owl-controls {
+    margin: 0;
+}
+
+#product .owl-theme .owl-controls .owl-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#product .owl-theme .owl-controls .owl-buttons div {
+    width: 40px;
+    height: 40px;
+    color: var(--black);
+    background: var(--lemon);
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+#product .owl-theme .owl-controls .owl-buttons div i {
+    font-size: 1.6rem;
+}
+
+#product .owl-theme .owl-controls .owl-page span {
+    display: none;
+}
+
+#owlCreator .item,
+#owlProduct .item {
+    margin: 10px;
+}
+
+#product .productForYou .card * {
+    text-decoration: none;
+}
+
+#product .productForYou .card {
+    background-color: var(--gray);
+    border-radius: var(--_20px);
+    overflow: hidden;
+}
+
+#product .productForYou .card .CrdTools {
+    position: relative;
+    overflow: hidden;
+}
+
+#product .productForYou .card .card-text {
+    font-size: 1.2rem;
+}
+
+#product .productForYou .card .userinfo {
+    all: unset;
+    cursor: pointer;
+}
+
+#product .productForYou .card .userinfo img {
+    border-radius: var(--_50px);
+}
+
+#product .productForYou .card .userinfo .F4 {
+    font-size: .9rem;
+    opacity: .9;
+}
+
+#product .productForYou .card .prodictInfo .F4 {
+    font-size: .8rem;
+    opacity: .4;
+}
+
+#product .productForYou .card .prodictInfo .F3 {
+    opacity: .9;
+    font-size: .9rem;
+}
+
+
+/* ADDED */
+.walletModalDialog .modal-content {
+  background: #0f172a;
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 20px 80px rgba(0,0,0,0.45);
+}
+
+.walletModalHeader {
+  background: transparent;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+  padding: 22px 24px;
+}
+
+.walletModalHeader .modal-title {
+  color: white;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.walletModalHeader .btn-close {
+  filter: invert(1);
+  opacity: 0.9;
+}
+
+.newsModalCard {
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.05);
+  color: #f8f9fa;
+}
+.newsModalCard h5 {
+  margin-bottom: 0.5rem;
+  color: #ffd966;
+}
+.newsModalCard p,
+.newsModalCard ul {
+  margin-bottom: 0.5rem;
+  color: #e9ecef;
+}
+.newsModalCard ul {
+  list-style: disc;
+  padding-left: 1rem;
+}
+
+.walletModalBody {
+  padding: 24px;
+}
+
+.walletSearch {
+  position: relative;
+}
+
+.walletSearch i {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #94a3b8;
+}
+
+.walletSearch input {
+  width: 100%;
+  height: 52px;
+  background: #111827;
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 16px;
+  padding: 0 18px 0 46px;
+  color: white;
+  outline: none;
+  transition: 0.2s ease;
+}
+
+.walletSearch input:focus {
+  border-color: #6366f1;
+  box-shadow: 0 0 0 4px rgba(99,102,241,0.15);
+}
+
+.walletCard {
+  height: 74px;
+  background: #111827;
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: 18px;
+  padding: 0 18px;
+  margin-bottom: 14px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.walletCard:hover {
+  transform: translateY(-2px);
+  border-color: #6366f1;
+  background: #151d31;
+}
+
+.walletLeft {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.walletLeft img {
+  width: 42px;
+  height: 42px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.walletLeft span {
+  display: block;
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.walletLeft small {
+  color: #94a3b8;
+  font-size: 12px;
+}
+
+.walletCard i {
+  color: #64748b;
+  font-size: 18px;
+}
+
+.walletCard:hover i {
+  color: white;
+}
+
+@media (max-width: 576px) {
+  .walletModalBody {
+    padding: 18px;
+  }
+
+  .walletCard {
+    height: 68px;
+  }
+}
+
+
+/* ================================================================ */
+
+.unlockWalletDialog .modal-content {
+  background: #0f172a;
+  border-radius: 28px;
+  border: 1px solid rgba(255,255,255,0.08);
+  overflow: hidden;
+}
+
+.unlockWalletBody {
+  padding: 34px 28px;
+}
+
+.unlockTop {
+  text-align: center;
+}
+
+.unlockTop img {
+  width: 72px;
+  margin-bottom: 18px;
+}
+
+.unlockTop h4 {
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.unlockTop p {
+  color: #94a3b8;
+  font-size: 14px;
+  margin-bottom: 26px;
+}
+
+.unlockInput input {
+  width: 100%;
+  height: 56px;
+  background: #111827;
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 16px;
+  padding: 0 18px;
+  color: white;
+  outline: none;
+  margin-bottom: 0px!important;
+}
+
+.unlockInput input:focus {
+  border-color: #6366f1;
+  box-shadow: 0 0 0 4px rgba(99,102,241,0.15);
+}
+
+.unlockBtn {
+  width: 100%;
+  height: 56px;
+  border: none;
+  border-radius: 16px;
+  background: linear-gradient(
+    135deg,
+    #6366f1,
+    #8b5cf6
+  );
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  transition: 0.2s ease;
+}
+
+.unlockBtn:hover {
+  transform: translateY(-2px);
+}
+
+/* =================================== */
+.forgotPasswordSection {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 18px;
+}
+
+.forgotPasswordBtn {
+  background: transparent;
+  border: none;
+  color: #818cf8;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.forgotPasswordBtn:hover {
+  color: white;
+}
+
+.unlockWalletDialog .modal-content {
+  background: #0f172a;
+  border-radius: 28px;
+  border: 1px solid rgba(255,255,255,0.08);
+  overflow: hidden;
+}
+
+.unlockWalletBody {
+  padding: 34px 28px;
+}
+
+.unlockTop {
+  text-align: center;
+}
+
+.unlockTop img {
+  width: 72px;
+  margin-bottom: 18px;
+}
+
+.unlockTop h4 {
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.unlockTop p {
+  color: #94a3b8;
+  font-size: 14px;
+  margin-bottom: 26px;
+}
+
+.unlockInput input {
+  width: 100%;
+  height: 56px;
+  background: #111827;
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 16px;
+  padding: 0 18px;
+  color: white;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+.unlockBtn {
+  width: 100%;
+  height: 56px;
+  border: none;
+  border-radius: 16px;
+  background: linear-gradient(
+    135deg,
+    #6366f1,
+    #8b5cf6
+  );
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+/* =========================================================
+   WALLET MODAL THEME
+========================================================= */
+
+.walletModalDialog .modal-content {
+  background: rgba(34, 34, 34, 0.95);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 26px;
+  overflow: hidden;
+  backdrop-filter: blur(20px);
+  box-shadow:
+    0 0 0 1px rgba(255,255,255,0.04),
+    0 30px 80px rgba(0,0,0,0.65);
+}
+
+.walletModalHeader {
+  background: transparent;
+  border: none;
+  padding: 28px 28px 12px;
+}
+
+.walletModalHeader .modal-title {
+  color: #fff;
+  font-size: 34px;
+  font-family: WorkSans-B;
+  text-align: center;
+  width: 100%;
+}
+
+.walletModalHeader .btn-close {
+  filter: invert(1);
+  opacity: 0.7;
+  position: absolute;
+  right: 24px;
+  top: 24px;
+}
+
+.walletModalBody {
+  padding: 10px 28px 28px;
+}
+
+.walletSubTitle {
+  text-align: center;
+  color: rgba(255,255,255,0.55);
+  font-size: 15px;
+  margin-bottom: 28px;
+}
+
+/* =========================================================
+   SEARCH
+========================================================= */
+
+.walletSearch {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.walletSearch i {
+  position: absolute;
+  left: 18px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: rgba(255,255,255,0.45);
+  font-size: 18px;
+}
+
+.walletSearch input {
+  width: 100%;
+  height: 62px;
+  border-radius: 18px;
+  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.03);
+  padding: 0 20px 0 52px;
+  color: white;
+  font-size: 15px;
+  outline: none;
+  transition: 0.25s ease;
+}
+
+.walletSearch input::placeholder {
+  color: rgba(255,255,255,0.35);
+}
+
+.walletSearch input:focus {
+  border-color: #d1ea39;
+  box-shadow: 0 0 0 4px rgba(209,234,57,0.12);
+}
+
+/* =========================================================
+   PREMIUM SMALL MODAL DESIGN
+========================================================= */
+
+.walletModalDialog .modal-dialog,
+.unlockWalletDialog .modal-dialog {
+  max-width: 420px;
+}
+
+/* =========================================================
+   MAIN MODAL
+========================================================= */
+
+.walletModalDialog .modal-content,
+.unlockWalletDialog .modal-content {
+  background: linear-gradient(
+    180deg,
+    rgba(39,39,39,0.98),
+    rgba(28,28,28,0.98)
+  );
+
+  border: 1px solid rgba(255,255,255,0.06);
+
+  border-radius: 24px;
+
+  overflow: hidden;
+
+  backdrop-filter: blur(20px);
+
+  box-shadow:
+    0 10px 40px rgba(0,0,0,0.45),
+    inset 0 1px 0 rgba(255,255,255,0.03);
+}
+
+/* =========================================================
+   HEADER
+========================================================= */
+
+.walletModalHeader {
+  border: none;
+  padding: 20px 22px 8px;
+}
+
+.walletModalHeader .modal-title {
+  color: white;
+  font-size: 22px;
+  font-family: WorkSans-B;
+  letter-spacing: 0.3px;
+}
+
+.walletModalHeader .btn-close {
+  filter: invert(1);
+  opacity: 0.7;
+  transform: scale(0.75);
+}
+
+/* =========================================================
+   BODY
+========================================================= */
+
+.walletModalBody,
+.unlockWalletBody {
+  padding: 10px 20px 22px;
+}
+
+/* =========================================================
+   SUBTITLE
+========================================================= */
+
+.walletSubTitle {
+  color: rgba(255,255,255,0.45);
+
+  font-size: 12px;
+
+  text-align: center;
+
+  margin-bottom: 18px;
+
+  line-height: 1.5;
+}
+
+/* =========================================================
+   SEARCH
+========================================================= */
+
+.walletSearch {
+  position: relative;
+  margin-bottom: 14px;
+}
+
+.walletSearch i {
+  position: absolute;
+  left: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+
+  color: rgba(255,255,255,0.35);
+
+  font-size: 13px;
+}
+
+.walletSearch input {
+  width: 100%;
+  height: 46px;
+
+  border-radius: 14px;
+
+  border: 1px solid rgba(255,255,255,0.06);
+
+  background: rgba(255,255,255,0.03);
+
+  padding: 0 16px 0 40px;
+
+  color: white;
+
+  font-size: 13px;
+
+  outline: none;
+
+  transition: 0.2s ease;
+}
+
+.walletSearch input::placeholder {
+  color: rgba(255,255,255,0.28);
+}
+
+.walletSearch input:focus {
+  border-color: #d1ea39;
+
+  box-shadow: 0 0 0 3px rgba(209,234,57,0.08);
+}
+
+/* =========================================================
+   WALLET CARD
+========================================================= */
+
+.walletCard {
+  width: 100%;
+
+  min-height: 62px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background: rgba(255,255,255,0.025);
+
+  border: 1px solid rgba(255,255,255,0.05);
+
+  border-radius: 16px;
+
+  padding: 0 14px;
+
+  margin-bottom: 10px;
+
+  cursor: pointer;
+
+  transition: 0.2s ease;
+}
+
+.walletCard:hover {
+  transform: translateY(-1px);
+
+  border-color: rgba(209,234,57,0.4);
+
+  background: rgba(255,255,255,0.045);
+}
+
+.walletLeft {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.walletLeft img {
+  width: 38px;
+  height: 38px;
+
+  border-radius: 12px;
+
+  object-fit: cover;
+}
+
+.walletLeft span {
+  display: block;
+
+  color: white;
+
+  font-size: 14px;
+
+  font-family: WorkSans-M;
+
+  margin-bottom: 1px;
+}
+
+.walletLeft small {
+  color: rgba(255,255,255,0.4);
+
+  font-size: 11px;
+}
+
+.walletCard i {
+  color: rgba(255,255,255,0.3);
+
+  font-size: 15px;
+
+  transition: 0.2s ease;
+}
+
+.walletCard:hover i {
+  color: #d1ea39;
+}
+
+/* =========================================================
+   UNLOCK MODAL TOP
+========================================================= */
+
+.unlockTop {
+  text-align: center;
+}
+
+.unlockTop img {
+  width: 62px;
+  height: 62px;
+
+  object-fit: contain;
+
+  margin-bottom: 14px;
+}
+
+.unlockTop h4 {
+  color: white;
+
+  font-size: 22px;
+
+  font-family: WorkSans-B;
+
+  margin-bottom: 6px;
+}
+
+.unlockTop p {
+  color: rgba(255,255,255,0.45);
+
+  font-size: 12px;
+
+  margin-bottom: 20px;
+}
+
+/* =========================================================
+   INPUT
+========================================================= */
+
+.unlockInput {
+  position: relative;
+  margin-bottom: 14px;
+}
+
+.unlockInput i {
+  position: absolute;
+  left: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+
+  color: rgba(255,255,255,0.35);
+
+  font-size: 13px;
+}
+
+.unlockInput input {
+  width: 100%;
+
+  height: 48px;
+
+  border-radius: 14px;
+
+  border: 1px solid rgba(255,255,255,0.06);
+
+  background: rgba(255,255,255,0.03);
+
+  padding: 0 42px;
+
+  color: white;
+
+  font-size: 13px;
+
+  outline: none;
+
+  transition: 0.2s ease;
+}
+
+.unlockInput input:focus {
+  border-color: #d1ea39;
+
+  box-shadow: 0 0 0 3px rgba(209,234,57,0.08);
+}
+
+.passwordEye {
+  position: absolute;
+
+  right: 14px;
+  top: 50%;
+
+  transform: translateY(-50%);
+
+  color: rgba(255,255,255,0.35);
+
+  cursor: pointer;
+
+  font-size: 13px;
+}
+
+/* =========================================================
+   REMEMBER
+========================================================= */
+
+.rememberWallet {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  margin-bottom: 18px;
+}
+
+.rememberWallet label {
+  color: rgba(255,255,255,0.55);
+
+  font-size: 11px;
+}
+
+/* =========================================================
+   BUTTONS
+========================================================= */
+
+.unlockBtn {
+  width: 100%;
+
+  height: 48px;
+
+  border: none;
+
+  border-radius: 14px;
+
+  background: #d1ea39;
+
+  color: black;
+
+  font-size: 14px;
+
+  font-family: WorkSans-B;
+
+  transition: 0.2s ease;
+}
+
+.unlockBtn:hover {
+  transform: translateY(-1px);
+
+  background: #e6ff4c;
+}
+
+.cancelUnlockBtn {
+  width: 100%;
+
+  height: 46px;
+
+  margin-top: 10px;
+
+  border-radius: 14px;
+
+  border: 1px solid rgba(255,255,255,0.08);
+
+  background: rgba(255,255,255,0.03);
+
+  color: rgba(255,255,255,0.75);
+
+  font-size: 13px;
+
+  transition: 0.2s ease;
+}
+
+.cancelUnlockBtn:hover {
+  background: rgba(255,255,255,0.05);
+}
+
+/* =========================================================
+   DIVIDER
+========================================================= */
+
+.unlockDivider {
+  text-align: center;
+
+  margin: 16px 0 2px;
+}
+
+.unlockDivider span {
+  color: rgba(255,255,255,0.3);
+
+  font-size: 11px;
+}
+
+/* =========================================================
+   FORGOT PASSWORD
+========================================================= */
+
+.forgotPasswordSection {
+  text-align: center;
+
+  margin-top: 14px;
+}
+
+.forgotPasswordBtn {
+  border: none;
+
+  background: transparent;
+
+  color: #d1ea39;
+
+  font-size: 11px;
+
+  text-decoration: none;
+}
+
+/* =========================================================
+   FOOTER
+========================================================= */
+
+.walletFooter {
+  text-align: center;
+
+  margin-top: 10px;
+
+  color: rgba(255,255,255,0.3);
+
+  font-size: 10px;
+}
+
+.walletFooter a {
+  color: #d1ea39;
+
+  text-decoration: none;
+}
+
+/* =========================================================
+   PRODUCT STATS & DETAILS
+========================================================= */
+
+#product .productStats {
+  display: flex;
+  gap: 2rem;
+  margin: 1rem 0;
+}
+
+#product .statItem {
+  flex: 1;
+}
+
+#product .statLabel {
+  display: block;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.5rem;
+  font-family: SpaceMono-R;
+}
+
+#product .statValue {
+  display: block;
+  color: var(--white);
+  font-size: 1.3rem;
+  font-family: WorkSans-M;
+}
+
+/* Collection Info */
+#product .collectionInfo {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: var(--_10px);
+}
+
+#product .collectionLabel {
+  display: block;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-family: SpaceMono-R;
+}
+
+#product .collectionName {
+  color: var(--white);
+  font-family: WorkSans-M;
+  font-size: 1.1rem;
+}
+
+#product .collectionItems {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.85rem;
+}
+
+/* Traits Section */
+#product .detailsSection,
+#product .blockchainDetails,
+#product .ownershipInfo {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: var(--_10px);
+  padding: 1.5rem;
+}
+
+#product .detailsTitle {
+  color: var(--white);
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-family: WorkSans-M;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  padding-bottom: 1rem;
+}
+
+#product .traitsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+#product .traitItem {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+#product .productMetaGrid {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 1.5rem;
+  align-items: start;
+}
+
+#product .productMetaGrid .priceBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+#product .productMetaGrid .metaDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+@media (max-width: 991px) {
+  #product .productMetaGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+#product .traitLabel {
+  display: block;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+  font-family: SpaceMono-R;
+}
+
+#product .traitValue {
+  display: block;
+  color: var(--white);
+  font-size: 0.95rem;
+  font-family: WorkSans-R;
+}
+
+/* Detail Rows */
+#product .detailRow {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+#product .detailRow:last-child {
+  border-bottom: none;
+}
+
+#product .detailLabel {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.85rem;
+}
+
+#product .detailValue {
+  color: var(--white);
+  font-family: SpaceMono-R;
+  font-size: 0.9rem;
+}
+
+#product .productDetailsBelowImage {
+  width: 100%;
+}
+
+#product .productDetailsBelowImage .blockchainDetails,
+#product .productDetailsBelowImage .ownershipInfo {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: var(--_10px);
+  padding: 1rem 1rem 0.75rem;
+}
+
+#product .productDetailsBelowImage .ownershipInfo {
+  margin-top: 1.5rem;
+}
+
+/* =========================================================
+   PRODUCT HISTORY SECTION
+========================================================= */
+
+#productHistory .historyCard {
+  background-color: var(--gray);
+  border-radius: var(--_10px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 1.5rem;
+}
+
+#productHistory .historyTitle {
+  color: var(--white);
+  font-size: 1.1rem;
+  font-family: WorkSans-M;
+  text-transform: capitalize;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  padding-bottom: 1rem;
+}
+
+#productHistory .tradingHistoryTable {
+  display: grid;
+  gap: 1rem;
+}
+
+#productHistory .tradingRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1.2fr 1.2fr 1fr;
+  gap: 1rem;
+  align-items: center;
+  padding: 1rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+#productHistory .tradingRow.tradingHeader {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.08);
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-family: SpaceMono-R;
+  font-weight: 600;
+}
+
+#productHistory .tradingCell {
+  color: var(--white);
+  font-size: 0.9rem;
+}
+
+#productHistory .tradingCell:first-child {
+  font-weight: 600;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 1024px) {
+  #product .productStats {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  #product .traitsGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  #productHistory .tradingRow {
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+  }
+
+  #productHistory .tradingRow.tradingHeader {
+    display: none;
+  }
+}
