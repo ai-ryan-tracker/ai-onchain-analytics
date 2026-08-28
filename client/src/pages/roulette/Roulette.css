@@ -1,0 +1,336 @@
+#roulette {
+  background: radial-gradient(circle at 10% 15%, rgba(255, 230, 120, 0.08), transparent 42%),
+    radial-gradient(circle at 92% 75%, rgba(20, 241, 149, 0.08), transparent 45%),
+    var(--gray);
+}
+
+#roulette .rouletteCard {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.03));
+  border: 1px solid rgba(255, 255, 255, 0.13);
+  border-radius: var(--_15px);
+  box-shadow: 0 22px 42px rgba(0, 0, 0, 0.22);
+}
+
+#roulette .wheelArea {
+  --slot-radius: 118px;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+#roulette .wheel {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 8px solid rgba(255, 255, 255, 0.22);
+  background:
+    radial-gradient(circle at 32% 26%, rgba(255, 255, 255, 0.08) 0%, transparent 38%),
+    radial-gradient(circle at 68% 74%, rgba(255, 255, 255, 0.04) 0%, transparent 42%),
+    radial-gradient(circle, #202020 28%, #0b0b0b 100%);
+  position: relative;
+  overflow: hidden;
+  transform-origin: 50% 50%;
+  will-change: transform;
+  transition: transform 4.2s cubic-bezier(0.16, 1, 0.3, 1);
+  animation: wheelIdlePulse 3.8s ease-in-out infinite;
+}
+
+#roulette .wheel::before {
+  content: "";
+  position: absolute;
+  inset: 7%;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  pointer-events: none;
+}
+
+#roulette .wheel::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  box-shadow:
+    inset 0 0 24px rgba(0, 0, 0, 0.55),
+    inset 0 0 56px rgba(0, 0, 0, 0.35);
+  pointer-events: none;
+}
+
+#roulette .wheelSlotsLayer {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+}
+
+#roulette .wheelCenter {
+  position: absolute;
+  width: 34%;
+  aspect-ratio: 1 / 1;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background:
+    radial-gradient(circle at 35% 30%, rgba(255, 255, 255, 0.12) 0%, transparent 40%),
+    radial-gradient(circle, #1f1f1f 30%, #0b0b0b 100%);
+  border: 2px solid rgba(255, 255, 255, 0.18);
+  box-shadow:
+    inset 0 0 16px rgba(0, 0, 0, 0.48),
+    0 0 0 3px rgba(0, 0, 0, 0.22);
+  z-index: 2;
+}
+
+#roulette .wheel.spinning .wheelSlotsLayer {
+  animation: none;
+}
+
+#roulette .wheel.spinning {
+  animation: wheelSpinGlow 0.9s ease-in-out infinite;
+}
+
+@keyframes wheelIdlePulse {
+  0%,
+  100% {
+    box-shadow:
+      0 0 0 rgba(0, 0, 0, 0),
+      0 10px 28px rgba(0, 0, 0, 0.28);
+  }
+  50% {
+    box-shadow:
+      0 0 18px rgba(255, 255, 255, 0.08),
+      0 14px 34px rgba(0, 0, 0, 0.36);
+  }
+}
+
+@keyframes wheelSpinGlow {
+  0%,
+  100% {
+    filter: brightness(1) saturate(1);
+    box-shadow:
+      0 0 12px rgba(255, 230, 120, 0.22),
+      0 14px 34px rgba(0, 0, 0, 0.38);
+  }
+  50% {
+    filter: brightness(1.08) saturate(1.06);
+    box-shadow:
+      0 0 20px rgba(255, 230, 120, 0.34),
+      0 16px 40px rgba(0, 0, 0, 0.45);
+  }
+}
+
+#roulette .wheelPointer {
+  position: absolute;
+  top: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 18px solid var(--lemon);
+  z-index: 3;
+}
+
+#roulette .wheelSlot {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform-origin: 50% 50%;
+  font-size: 0.68rem;
+  font-family: SpaceMono-B;
+  color: var(--white);
+  width: 18px;
+  margin-left: -9px;
+  margin-top: -9px;
+  line-height: 1;
+  text-align: center;
+}
+
+#roulette .wheelSlot.red {
+  color: #ff6767;
+}
+
+#roulette .wheelSlot.black {
+  color: #e5e5e5;
+}
+
+#roulette .wheelSlot.green {
+  color: #14f195;
+}
+
+#roulette .resultRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.65rem;
+  flex-wrap: wrap;
+}
+
+#roulette .resultLabel {
+  color: var(--dark-white);
+  font-family: WorkSans-S;
+  font-size: 0.85rem;
+}
+
+#roulette .resultBadge {
+  padding: 0.25rem 0.65rem;
+  border-radius: 999px;
+  font-family: SpaceMono-B;
+  font-size: 0.8rem;
+}
+
+#roulette .resultBadge.red {
+  background: rgba(255, 103, 103, 0.2);
+  color: #ff6767;
+}
+
+#roulette .resultBadge.black {
+  background: rgba(255, 255, 255, 0.15);
+  color: #ffffff;
+}
+
+#roulette .resultBadge.green {
+  background: rgba(20, 241, 149, 0.2);
+  color: #14f195;
+}
+
+#roulette .resultStatus {
+  font-family: WorkSans-S;
+  font-size: 0.85rem;
+}
+
+#roulette .resultStatus.win {
+  color: #14f195;
+}
+
+#roulette .resultStatus.lose {
+  color: #ff8d8d;
+}
+
+#roulette .tableTitle {
+  color: var(--white);
+  font-family: Rubik-B;
+}
+
+#roulette .betSection {
+  margin-bottom: 0.95rem;
+}
+
+#roulette .betLabel {
+  display: block;
+  color: var(--dark-white);
+  font-size: 0.78rem;
+  font-family: WorkSans-S;
+  text-transform: uppercase;
+  margin-bottom: 0.45rem;
+}
+
+#roulette .pickGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.5rem;
+}
+
+#roulette .pickGrid button,
+#roulette .coinBtn {
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  background: transparent;
+  color: var(--dark-white);
+  border-radius: var(--_8px);
+  padding: 0.55rem 0.6rem;
+  font-size: 0.82rem;
+  font-family: WorkSans-S;
+  transition: all 0.2s ease;
+}
+
+#roulette .pickGrid button:hover,
+#roulette .coinBtn:hover {
+  border-color: rgba(255, 255, 255, 0.35);
+  color: var(--white);
+}
+
+#roulette .pickGrid button.active,
+#roulette .coinBtn.active {
+  background: var(--lemon);
+  color: var(--black);
+  border-color: var(--lemon);
+}
+
+#roulette .coinRow {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.5rem;
+}
+
+#roulette .coinBtn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+#roulette .stakeInput {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: var(--_8px);
+  color: var(--white);
+  font-family: SpaceMono-R;
+  padding: 0.6rem 0.75rem;
+  outline: none;
+}
+
+#roulette .stakeInput:focus {
+  border-color: var(--lemon);
+}
+
+#roulette .summaryBox {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: var(--_10px);
+  padding: 0.75rem 0.85rem;
+  color: var(--white);
+  font-family: SpaceMono-R;
+  font-size: 0.86rem;
+}
+
+#roulette .spinBtn {
+  width: 100%;
+  border: none;
+  border-radius: var(--_8px);
+  padding: 0.75rem;
+  background: linear-gradient(90deg, var(--lemon), #ffe169);
+  color: var(--black);
+  font-family: Rubik-B;
+  transition: filter 0.2s ease;
+}
+
+#roulette .spinBtn:hover {
+  filter: brightness(0.95);
+}
+
+#roulette .spinBtn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+@media (max-width: 575px) {
+  #roulette .wheelArea {
+    --slot-radius: 96px;
+    width: 250px;
+    height: 250px;
+  }
+
+  #roulette .wheelSlot {
+    font-size: 0.58rem;
+    width: 15px;
+  }
+
+  #roulette .pickGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  #roulette .coinRow {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
