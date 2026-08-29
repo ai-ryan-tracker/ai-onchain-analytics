@@ -1,0 +1,841 @@
+#stakingDashboard {
+  background:
+    radial-gradient(circle at 16% 10%, rgba(124, 58, 237, 0.16), transparent 38%),
+    radial-gradient(circle at 88% 18%, rgba(244, 196, 48, 0.1), transparent 36%),
+    var(--sg-bg);
+  border-radius: var(--_20px);
+  padding: 0.75rem;
+}
+
+#stakingDashboard .stakingShell {
+  max-width: 1580px;
+  margin: 0 auto;
+}
+
+#stakingDashboard .panelCard {
+  background: linear-gradient(160deg, var(--sg-surface) 0%, var(--sg-surface-2) 100%);
+  border: 1px solid var(--sg-border);
+  border-radius: var(--_15px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.28);
+  padding: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+
+#stakingDashboard .panelCard::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 18% 0%, rgba(244, 196, 48, 0.08), transparent 36%);
+  pointer-events: none;
+}
+
+#stakingDashboard .rightPanel {
+  min-height: 100%;
+}
+
+#stakingDashboard .overviewHead {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.8rem;
+  align-items: center;
+  border-bottom: 1px solid var(--sg-border);
+  padding-bottom: 0.85rem;
+}
+
+#stakingDashboard .stakeType {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  color: var(--white);
+}
+
+#stakingDashboard .stakeType svg {
+  font-size: 1.45rem;
+  color: var(--sg-gold);
+}
+
+#stakingDashboard .stakeType span {
+  display: block;
+  font-family: Rubik-B;
+  font-size: 0.95rem;
+}
+
+#stakingDashboard .stakeType small {
+  color: var(--sg-text-muted);
+  font-family: WorkSans-M;
+}
+
+#stakingDashboard .overviewStats {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.7rem;
+}
+
+#stakingDashboard .overviewStats div {
+  min-width: 92px;
+}
+
+#stakingDashboard .overviewStats span {
+  display: block;
+  color: var(--sg-text-muted);
+  font-size: 0.66rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-family: WorkSans-M;
+}
+
+#stakingDashboard .overviewStats strong {
+  display: block;
+  margin-top: 0.26rem;
+  color: var(--sg-gold);
+  font-size: 0.77rem;
+  font-family: SpaceMono-R;
+}
+
+#stakingDashboard .overviewBody {
+  margin-top: 0.95rem;
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 0.95rem;
+}
+
+#stakingDashboard .liveStrip {
+  border-radius: var(--_10px);
+  border: 1px solid rgba(244, 196, 48, 0.24);
+  background: linear-gradient(120deg, rgba(244, 196, 48, 0.08), rgba(124, 58, 237, 0.08));
+  padding: 0.55rem 0.65rem;
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+}
+
+#stakingDashboard .liveDot {
+  border-radius: 999px;
+  border: 1px solid rgba(34, 197, 94, 0.5);
+  background: rgba(34, 197, 94, 0.14);
+  color: var(--sg-green);
+  font-family: SpaceMono-R;
+  font-size: 0.66rem;
+  padding: 0.2rem 0.52rem;
+  animation: pulseLiveTag 1.2s ease-in-out infinite;
+}
+
+#stakingDashboard .liveItems {
+  flex: 1;
+  display: grid;
+}
+
+#stakingDashboard .liveItem {
+  display: none;
+  align-items: center;
+  gap: 0.45rem;
+  color: var(--dark-white);
+  font-family: WorkSans-M;
+  font-size: 0.72rem;
+}
+
+#stakingDashboard .liveItem.active {
+  display: inline-flex;
+  animation: fadeLiftIn 0.32s ease;
+}
+
+#stakingDashboard .liveItem strong {
+  color: var(--white);
+}
+
+#stakingDashboard .liveItem b {
+  color: var(--sg-gold);
+  font-family: SpaceMono-R;
+}
+
+#stakingDashboard .liveItem small {
+  color: var(--sg-text-muted);
+  margin-left: auto;
+  font-family: SpaceMono-R;
+}
+
+#stakingDashboard .panelTitle {
+  color: var(--white);
+  font-family: Rubik-B;
+  font-size: 0.93rem;
+}
+
+#stakingDashboard .statCards {
+  margin-top: 0.7rem;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.6rem;
+}
+
+#stakingDashboard .statCard {
+  border-radius: var(--_10px);
+  border: 1px solid var(--sg-border);
+  background: rgba(255, 255, 255, 0.02);
+  padding: 0.62rem;
+  display: grid;
+  gap: 0.26rem;
+  text-align: left;
+  cursor: pointer;
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+#stakingDashboard .statCard svg {
+  color: var(--sg-gold);
+  font-size: 1.12rem;
+}
+
+#stakingDashboard .statCard:hover {
+  transform: translateY(-2px);
+  border-color: rgba(244, 196, 48, 0.42);
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.2);
+}
+
+#stakingDashboard .statCard:active {
+  transform: translateY(0);
+}
+
+#stakingDashboard .statCard span {
+  color: var(--dark-white);
+  font-family: WorkSans-M;
+  font-size: 0.72rem;
+}
+
+#stakingDashboard .statCard strong {
+  color: var(--white);
+  font-family: SpaceMono-R;
+  font-size: 0.76rem;
+}
+
+#stakingDashboard .summaryRow {
+  margin-top: 0.65rem;
+  display: grid;
+  grid-template-columns: 1fr 150px;
+  gap: 0.66rem;
+}
+
+#stakingDashboard .summaryList,
+#stakingDashboard .revenueCard {
+  border-radius: var(--_10px);
+  border: 1px solid var(--sg-border);
+  background: rgba(255, 255, 255, 0.02);
+}
+
+#stakingDashboard .summaryList {
+  padding: 0.68rem;
+  display: grid;
+  gap: 0.42rem;
+}
+
+#stakingDashboard .summaryList span {
+  color: var(--dark-white);
+  font-size: 0.78rem;
+  font-family: WorkSans-M;
+}
+
+#stakingDashboard .revenueCard {
+  padding: 0.6rem;
+  display: grid;
+  justify-items: center;
+  gap: 0.23rem;
+}
+
+#stakingDashboard .revenueCard svg {
+  color: var(--sg-gold);
+  font-size: 1.15rem;
+}
+
+#stakingDashboard .revenueCard strong {
+  color: var(--white);
+  font-family: Rubik-B;
+}
+
+#stakingDashboard .revenueCard small {
+  color: var(--sg-text-muted);
+  text-align: center;
+  font-family: WorkSans-S;
+  font-size: 0.69rem;
+}
+
+#stakingDashboard .chartFrame {
+  margin-top: 0.7rem;
+  border-radius: var(--_10px);
+  border: 1px solid var(--sg-border);
+  background: rgba(0, 0, 0, 0.18);
+  height: 238px;
+  padding: 0.6rem 0.7rem 0.55rem;
+  display: grid;
+  grid-template-rows: auto 1fr auto auto;
+  gap: 0.35rem;
+}
+
+#stakingDashboard .chartLabel {
+  justify-self: center;
+  border-radius: 999px;
+  padding: 0.28rem 0.65rem;
+  border: 1px solid rgba(244, 196, 48, 0.35);
+  background: rgba(244, 196, 48, 0.08);
+  color: var(--sg-gold);
+  font-family: SpaceMono-R;
+  font-size: 0.66rem;
+}
+
+#stakingDashboard .aprChart {
+  width: 100%;
+  height: 100%;
+  border-radius: var(--_10px);
+  background:
+    linear-gradient(180deg, rgba(12, 14, 24, 0.84), rgba(10, 11, 18, 0.95)),
+    repeating-linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0.05) 0px,
+      rgba(255, 255, 255, 0.05) 1px,
+      transparent 1px,
+      transparent 62px
+    );
+}
+
+#stakingDashboard .lineConservative,
+#stakingDashboard .lineDynamic {
+  fill: none;
+  stroke-width: 5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+#stakingDashboard .lineConservative {
+  stroke: var(--sg-purple-soft);
+}
+
+#stakingDashboard .lineDynamic {
+  stroke: var(--sg-gold);
+}
+
+#stakingDashboard .chartMonths {
+  display: flex;
+  justify-content: space-between;
+  color: var(--sg-text-muted);
+  font-family: SpaceMono-R;
+  font-size: 0.65rem;
+}
+
+#stakingDashboard .chartLegend {
+  display: flex;
+  gap: 0.9rem;
+  color: var(--dark-white);
+  font-family: WorkSans-M;
+  font-size: 0.68rem;
+}
+
+#stakingDashboard .chartLegend span {
+  display: flex;
+  align-items: center;
+  gap: 0.28rem;
+}
+
+#stakingDashboard .dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+#stakingDashboard .dot.con {
+  background: var(--sg-purple-soft);
+}
+
+#stakingDashboard .dot.dyn {
+  background: var(--sg-gold);
+}
+
+#stakingDashboard .stakeBox {
+  display: grid;
+  grid-template-columns: 1fr 260px;
+  gap: 0.8rem;
+}
+
+#stakingDashboard .stakeLabel {
+  display: block;
+  color: var(--white);
+  font-family: Rubik-B;
+  font-size: 1.4rem;
+}
+
+#stakingDashboard .stakeInputWrap small {
+  color: var(--sg-text-muted);
+  font-family: WorkSans-M;
+}
+
+#stakingDashboard .stakeInputRow {
+  border-radius: var(--_10px);
+  border: 1px solid var(--sg-border);
+  background: rgba(255, 255, 255, 0.02);
+  padding: 0.34rem;
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+#stakingDashboard .stakeInputRow svg {
+  color: var(--sg-gold);
+  font-size: 0.95rem;
+  margin-left: 0.25rem;
+}
+
+#stakingDashboard .stakeInputRow input {
+  border: none;
+  outline: none;
+  background: transparent;
+  flex: 1;
+  color: var(--white);
+  font-family: SpaceMono-R;
+  font-size: 0.85rem;
+}
+
+#stakingDashboard .stakePrimary {
+  border: none;
+  border-radius: var(--_10px);
+  padding: 0.48rem 0.85rem;
+  background: linear-gradient(135deg, var(--sg-gold), var(--sg-gold-hover));
+  color: var(--sg-bg);
+  font-family: WorkSans-S;
+  font-size: 0.8rem;
+}
+
+#stakingDashboard .stakePrimary:hover {
+  filter: brightness(0.96);
+}
+
+#stakingDashboard .quickStake {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.38rem;
+}
+
+#stakingDashboard .quickStake button {
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.03);
+  color: var(--dark-white);
+  font-family: SpaceMono-R;
+  font-size: 0.68rem;
+  border-radius: 999px;
+  padding: 0.24rem 0.54rem;
+}
+
+#stakingDashboard .quickStake button:hover {
+  border-color: rgba(244, 196, 48, 0.45);
+  color: var(--sg-gold);
+}
+
+#stakingDashboard .claimBox {
+  border-radius: var(--_10px);
+  padding: 0.8rem;
+  display: grid;
+  align-content: center;
+  gap: 0.27rem;
+  border: 1px solid rgba(124, 58, 237, 0.38);
+  background: linear-gradient(135deg, rgba(124, 58, 237, 0.28), rgba(168, 85, 247, 0.2));
+}
+
+#stakingDashboard .claimBox strong {
+  color: var(--white);
+  font-family: Rubik-B;
+}
+
+#stakingDashboard .claimBox small {
+  color: var(--dark-white);
+  opacity: 0.85;
+  font-family: WorkSans-S;
+}
+
+#stakingDashboard .claimBox button {
+  justify-self: end;
+  margin-top: 0.28rem;
+  border: none;
+  border-radius: var(--_10px);
+  padding: 0.4rem 0.9rem;
+  background: linear-gradient(135deg, var(--sg-gold), var(--sg-gold-hover));
+  color: var(--sg-bg);
+  font-family: WorkSans-S;
+}
+
+#stakingDashboard .claimBox button:hover {
+  filter: brightness(0.95);
+}
+
+#stakingDashboard .historyTabs {
+  display: flex;
+  gap: 0.45rem;
+  flex-wrap: wrap;
+}
+
+#stakingDashboard .historyTabs button {
+  border: 1px solid var(--sg-border);
+  background: rgba(255, 255, 255, 0.02);
+  color: var(--dark-white);
+  padding: 0.42rem 0.82rem;
+  border-radius: 999px;
+  font-family: WorkSans-M;
+  font-size: 0.77rem;
+}
+
+#stakingDashboard .historyTabs button.active {
+  border-color: rgba(244, 196, 48, 0.55);
+  background: rgba(244, 196, 48, 0.12);
+  color: var(--sg-gold);
+}
+
+#stakingDashboard .historyTable {
+  margin-top: 0.7rem;
+  overflow-x: auto;
+}
+
+#stakingDashboard .historyHeader,
+#stakingDashboard .historyRow {
+  min-width: 760px;
+  display: grid;
+  grid-template-columns: 110px 110px 80px 120px 180px 120px;
+  gap: 0.5rem;
+  align-items: center;
+  padding: 0.56rem 0.22rem;
+}
+
+#stakingDashboard .historyHeader {
+  color: var(--sg-text-muted);
+  font-family: WorkSans-M;
+  font-size: 0.72rem;
+}
+
+#stakingDashboard .historyRow {
+  border-top: 1px solid var(--sg-border);
+  color: var(--dark-white);
+  font-family: SpaceMono-R;
+  font-size: 0.72rem;
+  transition: background 0.18s ease;
+}
+
+#stakingDashboard .historyRow:hover {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+#stakingDashboard .historyRow .profit {
+  color: var(--sg-green);
+  font-family: WorkSans-S;
+}
+
+#stakingDashboard .chatHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.7rem;
+}
+
+#stakingDashboard .chatHead span {
+  color: var(--white);
+  font-family: Rubik-B;
+}
+
+#stakingDashboard .chatLiveTag {
+  font-style: normal;
+  margin-left: 0.38rem;
+  color: var(--sg-green);
+  font-family: SpaceMono-R;
+  font-size: 0.65rem;
+  border: 1px solid rgba(34, 197, 94, 0.42);
+  border-radius: 999px;
+  padding: 0.1rem 0.42rem;
+}
+
+#stakingDashboard .chatHead strong {
+  color: var(--sg-gold);
+  font-family: SpaceMono-R;
+  font-size: 0.82rem;
+}
+
+#stakingDashboard .chatList {
+  display: grid;
+  gap: 0.54rem;
+  max-height: 680px;
+  overflow-y: auto;
+  padding-right: 0.22rem;
+}
+
+#stakingDashboard .chatItem {
+  border-radius: var(--_10px);
+  border: 1px solid var(--sg-border);
+  background: rgba(255, 255, 255, 0.02);
+  padding: 0.58rem;
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+#stakingDashboard .chatItem:hover {
+  border-color: rgba(244, 196, 48, 0.35);
+  transform: translateY(-1px);
+}
+
+#stakingDashboard .chatItemTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.24rem;
+}
+
+#stakingDashboard .chatItemTop span {
+  color: var(--white);
+  font-family: WorkSans-S;
+  font-size: 0.75rem;
+}
+
+#stakingDashboard .chatItemTop small {
+  color: var(--sg-text-muted);
+  font-family: SpaceMono-R;
+  font-size: 0.67rem;
+}
+
+#stakingDashboard .chatItem p {
+  color: var(--dark-white);
+  opacity: 0.85;
+  font-family: WorkSans-R;
+  font-size: 0.72rem;
+  margin: 0;
+  line-height: 1.38;
+}
+
+#stakingDashboard .chatInputWrap {
+  border: 1px solid var(--sg-border);
+  border-radius: var(--_10px);
+  padding: 0.28rem;
+  display: flex;
+  align-items: center;
+  gap: 0.28rem;
+}
+
+#stakingDashboard .chatInputWrap input {
+  border: none;
+  outline: none;
+  background: transparent;
+  color: var(--white);
+  flex: 1;
+  font-family: SpaceMono-R;
+  font-size: 0.76rem;
+}
+
+#stakingDashboard .chatInputWrap button {
+  border: none;
+  border-radius: var(--_8px);
+  padding: 0.32rem 0.55rem;
+  background: linear-gradient(135deg, var(--sg-gold), var(--sg-gold-hover));
+  color: var(--sg-bg);
+}
+
+@keyframes pulseLiveTag {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.18);
+  }
+  50% {
+    box-shadow: 0 0 0 6px rgba(34, 197, 94, 0);
+  }
+}
+
+@keyframes fadeLiftIn {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 1399px) {
+  #stakingDashboard .overviewStats {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  #stakingDashboard .overviewBody {
+    grid-template-columns: 1fr;
+  }
+
+  #stakingDashboard .stakeBox {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 991px) {
+  #stakingDashboard {
+    border-radius: var(--_15px);
+    padding: 0.45rem;
+  }
+
+  #stakingDashboard .summaryRow {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 575px) {
+  #stakingDashboard .panelCard {
+    padding: 0.75rem;
+  }
+
+  #stakingDashboard .stakeLabel {
+    font-size: 1.08rem;
+  }
+
+  #stakingDashboard .statCards {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Tile Details Modal */
+#stakingDashboard ~ .tileModalOverlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(8, 10, 18, 0.72);
+  backdrop-filter: blur(4px);
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  animation: modalFadeIn 0.2s ease;
+}
+
+#stakingDashboard ~ .tileModalOverlay .tileModal {
+  width: min(620px, 96vw);
+  border-radius: var(--_15px);
+  border: 1px solid rgba(244, 196, 48, 0.24);
+  background: linear-gradient(170deg, var(--sg-surface) 0%, var(--sg-surface-2) 100%);
+  box-shadow: 0 24px 45px rgba(0, 0, 0, 0.35);
+  padding: 1.1rem;
+  position: relative;
+  animation: modalUpIn 0.24s ease;
+}
+
+#stakingDashboard ~ .tileModalOverlay .tileModalClose {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.6rem;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--dark-white);
+  font-size: 1.2rem;
+}
+
+#stakingDashboard ~ .tileModalOverlay .tileModalClose:hover {
+  color: var(--white);
+}
+
+#stakingDashboard ~ .tileModalOverlay .tileModalHead {
+  display: grid;
+  grid-template-columns: 52px 1fr;
+  gap: 0.8rem;
+  align-items: start;
+}
+
+#stakingDashboard ~ .tileModalOverlay .tileModalIcon {
+  width: 52px;
+  height: 52px;
+  border-radius: var(--_10px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(244, 196, 48, 0.35);
+  background: rgba(244, 196, 48, 0.08);
+  color: var(--sg-gold);
+  font-size: 1.4rem;
+}
+
+#stakingDashboard ~ .tileModalOverlay .tileModalHead h4 {
+  margin: 0;
+  color: var(--white);
+  font-family: Rubik-B;
+  font-size: 1.1rem;
+}
+
+#stakingDashboard ~ .tileModalOverlay .tileModalHead p {
+  margin: 0.4rem 0 0;
+  color: var(--dark-white);
+  opacity: 0.88;
+  font-family: WorkSans-M;
+  font-size: 0.84rem;
+  line-height: 1.45;
+}
+
+#stakingDashboard ~ .tileModalOverlay .tileModalGrid {
+  margin-top: 0.9rem;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.6rem;
+}
+
+#stakingDashboard ~ .tileModalOverlay .tileModalGrid div {
+  border-radius: var(--_10px);
+  border: 1px solid var(--sg-border);
+  background: rgba(255, 255, 255, 0.03);
+  padding: 0.55rem 0.65rem;
+}
+
+#stakingDashboard ~ .tileModalOverlay .tileModalGrid span {
+  display: block;
+  color: var(--sg-text-muted);
+  text-transform: uppercase;
+  font-family: WorkSans-S;
+  font-size: 0.66rem;
+}
+
+#stakingDashboard ~ .tileModalOverlay .tileModalGrid strong {
+  display: block;
+  margin-top: 0.26rem;
+  color: var(--white);
+  font-family: SpaceMono-R;
+  font-size: 0.9rem;
+}
+
+#stakingDashboard ~ .tileModalOverlay .tileModalFoot {
+  margin-top: 0.75rem;
+  border-radius: var(--_10px);
+  border: 1px solid rgba(124, 58, 237, 0.4);
+  background: linear-gradient(135deg, rgba(124, 58, 237, 0.22), rgba(168, 85, 247, 0.14));
+  padding: 0.5rem 0.7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#stakingDashboard ~ .tileModalOverlay .tileModalFoot span {
+  color: var(--dark-white);
+  font-family: WorkSans-S;
+  font-size: 0.76rem;
+}
+
+#stakingDashboard ~ .tileModalOverlay .tileModalFoot b {
+  color: var(--sg-gold);
+  font-family: SpaceMono-R;
+}
+
+@keyframes modalFadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes modalUpIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@media (max-width: 575px) {
+  #stakingDashboard ~ .tileModalOverlay .tileModalGrid {
+    grid-template-columns: 1fr;
+  }
+}
