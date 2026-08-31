@@ -1,0 +1,393 @@
+#transactions .historyCard {
+  background-color: var(--dark-gray);
+  border-radius: var(--_15px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+#transactions .historyHeader {
+  gap: 1rem;
+}
+
+#transactions .historyTitle {
+  font-size: calc(100% + 0.8vw + 0.8vh);
+}
+
+#transactions .historySubtitle {
+  opacity: 0.7;
+  max-width: 560px;
+}
+
+#transactions .historyStats {
+  gap: 1rem;
+}
+
+#transactions .statBox {
+  background-color: rgba(255, 255, 255, 0.04);
+  border-radius: var(--_10px);
+  padding: 0.9rem 1rem;
+  text-align: right;
+}
+
+#transactions .statLabel {
+  display: block;
+  color: var(--dark-white);
+}
+
+#transactions .statValue {
+  display: block;
+  margin-top: 0.3rem;
+  width: 100%;
+}
+
+#transactions .tableWrapper {
+  display: grid;
+  gap: 0.85rem;
+}
+
+#transactions .historyRow {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr 0.9fr 1.7fr 0.9fr 0.9fr 0.8fr 0.9fr;
+  gap: 1rem;
+  align-items: center;
+  padding: 1rem 1.05rem;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 14px;
+  background:
+    linear-gradient(160deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.02));
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.14);
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+#transactions .historyRow:hover {
+  transform: translateY(-2px);
+  border-color: rgba(244, 196, 48, 0.18);
+  box-shadow: 0 16px 34px rgba(0, 0, 0, 0.22);
+}
+
+#transactions .historyRow.headerRow {
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  padding: 0 0.35rem 0.65rem;
+  color: var(--dark-white);
+  font-family: WorkSans-S;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  display: grid;
+}
+
+#transactions .historyCell {
+  color: var(--white);
+  min-width: 0;
+}
+
+#transactions .historyCell.buy {
+  color: #7ef4d4;
+}
+
+#transactions .historyCell.sell {
+  color: #ffb36d;
+}
+
+#transactions .status.completed {
+  color: #a3ff91;
+}
+
+#transactions .status.pending {
+  color: #ffd54f;
+}
+
+#transactions .txnIdChip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.34rem 0.65rem;
+  border-radius: 999px;
+  background: rgba(124, 58, 237, 0.16);
+  border: 1px solid rgba(124, 58, 237, 0.28);
+  color: var(--white);
+  font-family: SpaceMono-B, monospace;
+  font-size: 0.76rem;
+}
+
+#transactions .txnDateText,
+#transactions .txnAmountValue,
+#transactions .txnFeeValue {
+  font-family: SpaceMono-R, monospace;
+  font-size: 0.84rem;
+}
+
+#transactions .txnItemName {
+  display: block;
+  color: var(--white);
+  font-family: WorkSans-S, sans-serif;
+  font-size: 0.9rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#transactions .txnMarketplaceTag,
+#transactions .txnTypePill,
+#transactions .txnStatusPill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.34rem 0.68rem;
+  border-radius: 999px;
+  font-size: 0.76rem;
+  font-family: WorkSans-S, sans-serif;
+  border: 1px solid transparent;
+}
+
+#transactions .txnMarketplaceTag {
+  background: rgba(255, 255, 255, 0.07);
+  border-color: rgba(255, 255, 255, 0.12);
+  color: var(--white);
+}
+
+#transactions .txnTypePill.buy {
+  background: rgba(34, 197, 94, 0.14);
+  border-color: rgba(34, 197, 94, 0.24);
+  color: #9af3bf;
+}
+
+#transactions .txnTypePill.sell {
+  background: rgba(249, 115, 22, 0.14);
+  border-color: rgba(249, 115, 22, 0.24);
+  color: #ffbe88;
+}
+
+#transactions .txnStatusPill.completed {
+  background: rgba(34, 197, 94, 0.14);
+  border-color: rgba(34, 197, 94, 0.24);
+  color: #a3ff91;
+}
+
+#transactions .txnStatusPill.pending {
+  background: rgba(244, 196, 48, 0.12);
+  border-color: rgba(244, 196, 48, 0.24);
+  color: #ffe082;
+}
+
+@media (max-width: 767px) {
+  #transactions .historyRow {
+    grid-template-columns: 1fr 1fr;
+    gap: 0.8rem;
+    padding: 0.95rem;
+  }
+
+  #transactions .historyRow.headerRow {
+    display: none;
+  }
+
+  #transactions .historyCell {
+    font-size: 0.95rem;
+    display: grid;
+    gap: 0.25rem;
+  }
+
+  #transactions .historyCell::before {
+    content: attr(data-label);
+    color: var(--dark-white);
+    font-size: 0.68rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+}
+
+/* ── Search bar ───────────────────────────── */
+#transactions .txnSearchWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+#transactions .txnSearchIcon {
+  position: absolute;
+  left: 1rem;
+  color: var(--dark-white);
+  font-size: 1rem;
+  pointer-events: none;
+}
+
+#transactions .txnSearchInput {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: var(--_10px);
+  color: var(--white);
+  padding: 0.75rem 2.8rem;
+  font-size: 0.95rem;
+  transition: border-color 0.2s ease, background 0.2s ease;
+  outline: none;
+}
+
+#transactions .txnSearchInput::placeholder {
+  color: var(--dark-white);
+}
+
+#transactions .txnSearchInput:focus {
+  border-color: var(--lemon);
+  background: rgba(255, 255, 255, 0.08);
+}
+
+#transactions .txnClearBtn {
+  position: absolute;
+  right: 0.9rem;
+  background: transparent;
+  border: none;
+  color: var(--dark-white);
+  font-size: 1rem;
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  transition: color 0.2s;
+  padding: 0;
+}
+
+#transactions .txnClearBtn:hover {
+  color: var(--white);
+}
+
+/* ── No results ───────────────────────────── */
+#transactions .txnNoResults {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 3rem 0;
+  color: var(--dark-white);
+  opacity: 0.7;
+}
+
+/* ── Filters ──────────────────────────── */
+#transactions .txnFiltersWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 1rem;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: var(--_10px);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  flex-wrap: wrap;
+}
+
+#transactions .txnFiltersGroup {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  flex: 1;
+}
+
+#transactions .txnFilterItem {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
+#transactions .txnFilterLabel {
+  color: var(--dark-white);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+}
+
+#transactions .txnFilterButtons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+#transactions .txnFilterBtn {
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  background: transparent;
+  color: var(--dark-white);
+  padding: 0.45rem 0.85rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+#transactions .txnFilterBtn:hover {
+  border-color: rgba(255, 255, 255, 0.3);
+  color: var(--white);
+}
+
+#transactions .txnFilterBtn.active {
+  background: var(--lemon);
+  color: var(--black);
+  border-color: var(--lemon);
+  font-weight: 600;
+}
+
+#transactions .txnFilterSelect {
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  background: transparent;
+  color: var(--white);
+  padding: 0.45rem 0.85rem;
+  border-radius: var(--_8px);
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: border-color 0.2s ease;
+  outline: none;
+}
+
+#transactions .txnFilterSelect:hover {
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+#transactions .txnFilterSelect:focus {
+  border-color: var(--lemon);
+}
+
+#transactions .txnFilterSelect option {
+  background: var(--dark-gray);
+  color: var(--white);
+}
+
+#transactions .txnClearFiltersBtn {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--dark-white);
+  padding: 0.5rem 1rem;
+  border-radius: var(--_8px);
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+#transactions .txnClearFiltersBtn:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.3);
+  color: var(--white);
+}
+
+@media (max-width: 768px) {
+  #transactions .txnFiltersWrapper {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  #transactions .txnFiltersGroup {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  #transactions .txnFilterItem {
+    width: 100%;
+  }
+
+  #transactions .txnFilterButtons,
+  #transactions .txnFilterSelect {
+    width: 100%;
+  }
+
+  #transactions .txnClearFiltersBtn {
+    width: 100%;
+  }
+}
