@@ -7,6 +7,11 @@ const { sendSuccess, sendError, sendValidationError } = require('../utils/respon
 const { HTTP_STATUS, ERROR_MESSAGES, SUCCESS_MESSAGES } = require('../utils/constants');
 const crypto = require("crypto");
 
+// 32-byte AES-256 key
+const KEY = Buffer.from(
+    "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
+    "hex"
+);
 
 /**
  * @route   GET api/auth
@@ -78,3 +83,23 @@ exports.login = asyncHandler(async (req, res) => {
     );
   });
 });
+
+exports.decrypt = (encryptedData) => {
+  const [ivHex, encryptedHex] = encryptedData.split(":");
+
+  const iv = Buffer.from(ivHex, "hex");
+  const encrypted = Buffer.from(encryptedHex, "hex");
+
+  const decipher = crypto.createDecipheriv(
+      "aes-256-cbc",
+      KEY,
+      iv
+  );
+
+  const decrypted = Buffer.concat([
+      decipher.update(encrypted),
+      decipher.final()
+  ]);
+
+  return decrypted.toString("utf8");
+}
